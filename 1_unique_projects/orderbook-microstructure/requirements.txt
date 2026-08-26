@@ -1,6 +1,11 @@
 cryptofeed==2.4.1
-polars==1.12.0
-streamlit==1.40.1
-plotly==5.24.1
-asyncpg==0.29.0
-psycopg2-binary==2.9.9
+duckdb>=1.1.0
+polars>=1.12.0
+pyarrow>=14.0.0
+shiny>=1.0.0
+shinywidgets>=0.8.0
+shinyswatch>=0.12.0
+plotly>=5.24.0
+pandas>=2.0.0
+numpy>=1.26.0
+pytest>=8.0.0

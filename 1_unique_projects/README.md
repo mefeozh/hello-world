@@ -16,7 +16,7 @@ This directory contains software engineering, autonomous AI agent frameworks, ha
 
 ### 3. [`orderbook-microstructure/`](./orderbook-microstructure)
 - **Domain:** High-Throughput Market Microstructure Ingestion & Visualization.
-- **Core Features:** Real-time Level 2 crypto order book streaming via Cryptofeed into columnar DuckDB, Polars dataframe transformation, and interactive Streamlit depth curves and spread heatmaps.
+- **Core Features:** Real-time Level 2 crypto order book streaming via Cryptofeed into columnar DuckDB, Polars dataframe transformation, and interactive Shiny for Python terminal with cumulative depth curves, liquidity heatmaps, and depth percentiles.
 
 ### 4. [`web-platform-odtusat/`](./web-platform-odtusat)
 - **Domain:** Static Web Infrastructure & Automation.
