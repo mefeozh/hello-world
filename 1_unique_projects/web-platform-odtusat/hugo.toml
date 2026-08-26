@@ -1,0 +1,54 @@
+baseURL = 'https://odtusat.org/'
+languageCode = 'tr-TR'
+
+enableRobotsTXT = true
+
+defaultContentLanguage = 'tr'
+defaultContentLanguageInSubdir = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[languages]
+  [languages.tr]
+    languageName = 'Türkçe'
+    title = 'ODTÜ-SAT – ODTÜ Sualtı Topluluğu'
+    weight = 1
+    contentDir = 'content/tr'
+
+  [languages.en]
+    languageName = 'English'
+    title = 'ODTÜ-SAT – METU Underwater Society'
+    weight = 2
+    contentDir = 'content/en'
+
+[module]
+  [[module.mounts]]
+    source = 'content/tr'
+    target = 'content'
+    lang = 'tr'
+
+  [[module.mounts]]
+    source = 'content/blog/tr'
+    target = 'content/blog'
+    lang = 'tr'
+
+  [[module.mounts]]
+    source = 'content/en'
+    target = 'content'
+    lang = 'en'
+
+  [[module.mounts]]
+    source = 'content/blog/en'
+    target = 'content/blog'
+    lang = 'en'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[permalinks]
+  subgroups = '/:slug/'

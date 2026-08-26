@@ -1,0 +1,42 @@
+{{ define "main" }}
+<!-- Page Hero -->
+<section class="hero-section page-hero" style="min-height: 40vh;">
+    <picture class="hero-bg pre-blurred">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image | absURL }}" alt="Hero Background">
+        {{ else }}
+        <source srcset="{{ "assets/images/hero-bg-blurred.avif" | absURL }}" type="image/avif">
+        <img src="{{ "assets/images/hero-bg-blurred.jpg" | absURL }}" alt="Hero Background">
+        {{ end }}
+    </picture>
+    <div class="hero-overlay" style="background: rgba(0,0,0,0.6);"></div>
+    <div class="container hero-content" style="max-width: 800px; padding-top: 100px;">
+        <div class="blog-meta" style="color: rgba(255,255,255,0.8); margin-bottom: 15px; font-size: 0.9rem;">
+            <span class="blog-date">{{ .Date.Format "02 Jan 2006" }}</span>
+            {{ if .Params.author }}
+            <span class="blog-author" style="margin-left: 15px;">| <i class="fas fa-user"
+                    style="margin-right: 5px;"></i> {{ .Params.author }}</span>
+            {{ end }}
+        </div>
+        <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 15px; text-transform: none;">{{ .Title }}</h1>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="content-section">
+    <div class="container" style="max-width: 800px; margin: 0 auto;">
+        <article class="blog-post content-block">
+
+            <div class="post-content" style="line-height: 1.8; font-size: 1.05rem;">
+                {{ .Content }}
+            </div>
+
+            <div class="post-footer"
+                style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+                <a href="{{ "/blog" | relLangURL }}" class="back-link"
+                    style="color: var(--primary-color); text-decoration: none; font-weight: 500;">{{ i18n "back_to_blog" }}</a>
+            </div>
+        </article>
+    </div>
+</section>
+{{ end }}

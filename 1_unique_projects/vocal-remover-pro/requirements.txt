@@ -1,0 +1,8 @@
+numpy<2.4.0
+audio-separator>=0.44.2
+yt-dlp>=2026.6.9
+streamlit>=1.40.0
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+onnxruntime-directml>=1.19.0; sys_platform == 'win32'
+onnxruntime>=1.19.0; sys_platform != 'win32'

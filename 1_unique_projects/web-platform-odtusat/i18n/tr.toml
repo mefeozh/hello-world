@@ -1,0 +1,216 @@
+[home]
+other = "Ana Sayfa"
+
+[subgroups]
+other = "Alt Gruplar"
+
+[about_us]
+other = "Hakkımızda"
+
+[who_are_we]
+other = "Biz Kimiz?"
+
+[membership]
+other = "Üyelik"
+
+[member_list]
+other = "Üye Listesi"
+
+[bylaws]
+other = "Tüzük"
+
+[faq]
+other = "S.S.S."
+
+[society_name]
+other = "ODTÜ Sualtı Topluluğu"
+
+[society_subtitle]
+other = "ODTÜ Sualtı Topluluğu"
+
+[since_1985]
+other = "1985'den beri"
+
+[copyright]
+other = "©2026 ODTÜ-SAT | Tüm hakları saklıdır."
+
+[contact]
+other = "İLETİŞİM"
+
+[read_more]
+other = "Devamını Oku"
+
+[show_less]
+other = "Daha Az Göster"
+
+[footer_about_text]
+other = "1985'ten bugüne Orta Doğu Teknik Üniversitesi öğrencilerinin devam ettirdiği Türkiye'nin öncü dalış topluluğu."
+
+[site_description]
+other = "ODTÜ Sualtı Topluluğu - 1985'den beri Türkiye'nin öncü dalış topluluğu. Sualtı araştırmaları, Akdeniz foku koruma, mağara dalışı ve daha fazlası."
+
+[our_subgroups]
+other = "Alt Gruplarımız"
+
+[adopt_title]
+other = "AKDENİZ FOKU EVLAT EDİN"
+
+[adopt_text]
+other = "Sadece 700 birey kalan ve Türkiye dahil 4 ülkede yaşayan nadir Akdeniz foklarını korumak için evlat edinerek ülkemizdeki çalışmalara destek olabilirsin."
+
+[get_info]
+other = "Bilgi Al"
+
+[projects_title]
+other = "Bazı Proje ve Sponsorlarımız"
+
+[mission_title]
+other = "Misyonumuz"
+
+[mission_quote]
+other = "“Kabarcıktan başka bir şey bırakma,<br>Fotoğraftan başka bir şey alma,<br>Zamandan başka bir şey öldürme…”"
+
+[latest_blog_posts]
+other = "Son Blog Yazılarımız"
+
+[more]
+other = "Daha Fazla"
+
+[afag_name]
+other = "Akdeniz Fokları<br>Araştırma Grubu"
+
+[bag_name]
+other = "Batık Araştırmaları<br>Grubu"
+
+[fovag_name]
+other = "Fotografi ve<br>Videografi Grubu"
+
+[madag_name]
+other = "Mağara Dalışı ve<br>Araştırmaları Grubu"
+
+[ekog_name]
+other = "Ekolojik Araştırmalar<br>Grubu"
+
+[sdg_name]
+other = "Serbest Dalış<br>Grubu"
+
+[project1_title]
+other = "Posidonia Oceanica Yayılımı İnceleme Projesi"
+
+[project1_desc]
+other = "Bu proje, Akdeniz'e özgü Posidonia oceanica'nın yayılımını ve özelliklerini incelemeyi amaçlamaktadır. Türün varlığını belirlemek, değişiklikleri gözlemlemek ve halkın bilinçlendirilmesi yoluyla koruma sağlamak amaçları arasındadır."
+
+[project2_title]
+other = "Uluburun III 'ün oluşturduğu Balık Faunası Değerlendirmesi"
+
+[project2_desc]
+other = "Uluburun batığının replikası, Kaş-Hidayet Koyu'ndaki Sualtı Arkeopark projesi kapsamında ekolojik araştırmalar için kullanılmaktadır. Topluluğumuz ve SAD Ekoloji grubu, mevsimsel örneklemelerle batığın bölgedeki balık komuniteleri üzerindeki etkisini ve mevsimsel değişimleri incelemektedir."
+
+[project3_title]
+other = "\"Engelsiz ODTÜ Maviyle Buluşuyor\" Projesi"
+
+[project3_desc]
+other = "\"Dalışa Hiçbir Şey Engel Değildir, Ankara Bile…\" sloganıyla yola çıkan \"Engelsiz ODTÜ Maviyle Buluşuyor\" projesi, toplumdaki \"engelli olmak\" algısını yıkmak ve herkes için fırsat eşitliği sağlamaktı için Marmaris'de yapılmış bir projedir. Bu anlamlı proje, dalışın engel tanımadığını bir kez daha kanıtlayarak Yılın Etkinliği ödülüne layık görüldü."
+
+[blog1_date]
+other = "10 Mart 2026"
+
+[blog1_title]
+other = "Yeni Başlayanlar İçin Tüplü Dalış Rehberi"
+
+[blog1_desc]
+other = "Dalışa yeni başlayacaklar için temel ekipmanlar, dikkat edilmesi gerekenler ve ilk dalış deneyimi hakkında ipuçları."
+
+[blog2_date]
+other = "5 Mart 2026"
+
+[blog2_title]
+other = "Sualtı Fotoğrafçılığının Sırları"
+
+[blog2_desc]
+other = "Sualtında büyüleyici kareler yakalamak için doğru ışık kullanımı, kompozisyon teknikleri ve ekipman seçimi."
+
+[blog3_date]
+other = "28 Şubat 2026"
+
+[blog3_title]
+other = "Akdeniz Fokları ve Yaşam Alanları"
+
+[blog3_desc]
+other = "Türkiye kıyılarında yaşayan nesli tükenmekte olan Akdeniz foklarının yaşam alanları ve ekolojik sistemdeki yerleri."
+
+[under_construction]
+other = "Yapım Aşamasında"
+
+[coming_soon_text]
+other = "Bu sayfa şu anda hazırlanmaktadır. Çok yakında hizmetinizde olacaktır."
+
+[back_to_blog]
+other = "← Bloglara Dön"
+
+[back_to_home]
+other = "Ana Sayfaya Dön"
+
+[afag_code]
+other = "AFAG"
+
+[bag_code]
+other = "BAG"
+
+[fovag_code]
+other = "FOVAG"
+
+[madag_code]
+other = "MADAG"
+
+[ekog_code]
+other = "EKOG"
+
+[sdg_code]
+other = "SDG"
+
+[afag_slug]
+other = "afag"
+
+[bag_slug]
+other = "bag"
+
+[fovag_slug]
+other = "fovag"
+
+[madag_slug]
+other = "madag"
+
+[ekog_slug]
+other = "ekog"
+
+[sdg_slug]
+other = "sdg"
+
+[tuzuk_slug]
+other = "tuzuk"
+
+[sss_slug]
+other = "sss"
+
+[biz_kimiz_slug]
+other = "biz-kimiz"
+
+[uyelik_slug]
+other = "uyelik"
+
+[uye_listesi_slug]
+other = "uye-listesi"
+
+[member_number]
+other = "Üye No"
+
+[member_name]
+other = "Adı Soyadı"
+
+[member_year]
+other = "Üyelik Yılı"
+
+[member_search_placeholder]
+other = "Üye Ara (No, İsim veya Yıl)..."
+

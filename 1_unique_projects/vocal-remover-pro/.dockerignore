@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# App output (mounted as volumes)
+library/
+models/
+temp_*/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Docs (not needed in image)
+README.md
+*.md
+
+# Audio files
+*.wav
+*.mp3
+*.flac

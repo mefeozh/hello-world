@@ -1,0 +1,132 @@
+{{ define "main" }}
+<!-- Page Hero -->
+<section class="hero-section page-hero">
+    <picture class="hero-bg pre-blurred">
+        {{ if .Params.hero_image_avif }}
+        <source srcset="{{ .Params.hero_image_avif | absURL }}" type="image/avif">
+        <img src="{{ .Params.hero_image_jpg | absURL }}" alt="Hero Background">
+        {{ else }}
+        <source srcset="{{ "assets/images/hero-bg-blurred.avif" | absURL }}" type="image/avif">
+        <img src="{{ "assets/images/hero-bg-blurred.jpg" | absURL }}" alt="Hero Background">
+        {{ end }}
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <h2 class="hero-title">{{ .Title }}</h2>
+        <p class="hero-subtitle">{{ .Params.subtitle }}</p>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="content-block">
+            <style>
+                /* Members Table Styles */
+                .members-table-container {
+                    overflow-x: auto;
+                    margin-top: 30px;
+                }
+
+                .members-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    background: #fff;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                .members-table th,
+                .members-table td {
+                    padding: 15px 20px;
+                    text-align: left;
+                    border-bottom: 1px solid #eee;
+                }
+
+                .members-table th {
+                    background-color: #f8f9fa;
+                    font-weight: 600;
+                    color: var(--text-color);
+                    position: sticky;
+                    top: 0;
+                }
+
+                .members-table tbody tr:hover {
+                    background-color: #f0f7ff;
+                }
+
+                .members-table tbody tr:last-child td {
+                    border-bottom: none;
+                }
+
+                /* Search Box */
+                .search-container {
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+                .search-input {
+                    padding: 10px 15px;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    width: 100%;
+                    max-width: 300px;
+                    font-family: inherit;
+                    font-size: 1rem;
+                }
+
+                .search-input:focus {
+                    outline: none;
+                    border-color: var(--primary-color);
+                }
+            </style>
+
+            <div class="search-container">
+                <input type="text" id="memberSearch" class="search-input" placeholder="{{ i18n "member_search_placeholder" }}">
+            </div>
+
+            <div class="members-table-container">
+                <table class="members-table" id="membersTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 15%;">{{ i18n "member_number" }}</th>
+                            <th style="width: 60%;">{{ i18n "member_name" }}</th>
+                            <th style="width: 25%;">{{ i18n "member_year" }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ range .Site.Data.members.members }}
+                        <tr>
+                            <td>{{ if .number }}{{ .number }}{{ else }}&ndash;{{ end }}</td>
+                            <td>{{ .name }}</td>
+                            <td>{{ .year }}</td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
+            </div>
+
+            <script>
+                document.getElementById('memberSearch').addEventListener('keyup', function () {
+                    let filter = this.value.toUpperCase();
+                    let rows = document.querySelector("#membersTable tbody").rows;
+
+                    for (let i = 0; i < rows.length; i++) {
+                        let numberCol = rows[i].cells[0].textContent.toUpperCase();
+                        let nameCol   = rows[i].cells[1].textContent.toUpperCase();
+                        let yearCol   = rows[i].cells[2].textContent.toUpperCase();
+
+                        if (numberCol.indexOf(filter) > -1 || nameCol.indexOf(filter) > -1 || yearCol.indexOf(filter) > -1) {
+                            rows[i].style.display = "";
+                        } else {
+                            rows[i].style.display = "none";
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</section>
+{{ end }}

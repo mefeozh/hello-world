@@ -1,0 +1,28 @@
+{{ define "main" }}
+<!-- Page Hero -->
+<section class="hero-section page-hero">
+    <picture class="hero-bg pre-blurred">
+        {{ if .Params.hero_image_avif }}
+        <source srcset="{{ .Params.hero_image_avif | absURL }}" type="image/avif">
+        <img src="{{ .Params.hero_image_jpg | absURL }}" alt="Hero Background">
+        {{ else }}
+        <source srcset="{{ "assets/images/hero-bg-blurred.avif" | absURL }}" type="image/avif">
+        <img src="{{ "assets/images/hero-bg-blurred.jpg" | absURL }}" alt="Hero Background">
+        {{ end }}
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <h2 class="hero-title">{{ .Title }}</h2>
+        <p class="hero-subtitle">{{ .Params.subtitle }}</p>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="content-section">
+    <div class="container container-narrow">
+        <div class="content-block">
+            {{ .Content | safeHTML }}
+        </div>
+    </div>
+</section>
+{{ end }}

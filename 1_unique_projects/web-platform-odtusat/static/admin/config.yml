@@ -1,0 +1,63 @@
+local_backend: true
+backend:
+  name: github
+  repo: ODTU-SAT/WEB_SITESI
+  branch: main
+media_folder: 'static/assets/images' # Media files will be stored in the repo under static/assets/images
+public_folder: '/assets/images' # The src attribute for uploaded media will begin with /assets/images
+
+i18n:
+  structure: multiple_folders
+  locales: [tr, en]
+  default_locale: tr
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "subgroups"
+    label: "Alt Gruplar"
+    folder: "content/subgroups"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Başlık", name: "title", widget: "string", i18n: true}
+      - {label: "Alt Başlık", name: "subtitle", widget: "string", i18n: true}
+      - {label: "Varsayılan Görsel (AVIF)", name: "hero_image_avif", widget: "image", required: false, i18n: duplicate}
+      - {label: "Varsayılan Görsel (JPG)", name: "hero_image_jpg", widget: "image", required: false, i18n: duplicate}
+      - {label: "Gövde Metni", name: "body", widget: "markdown", i18n: true}
+
+  - name: "members"
+    label: "Üye Listesi"
+    files:
+      - label: "Üyeler"
+        name: "members"
+        file: "data/members.yaml"
+        fields:
+          - label: "Üyeler Listesi"
+            name: "members"
+            widget: "list"
+            allow_add: true
+            collapsed: true
+            summary: "{{number}} – {{name}} ({{year}})"
+            fields:
+              - {label: "Üye No", name: "number", widget: "number", value_type: "int", required: false}
+              - {label: "Adı Soyadı", name: "name", widget: "string"}
+              - {label: "Üyelik Yılı", name: "year", widget: "string"}
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Başlık / Title", name: "title", widget: "string", i18n: true, pattern: ['^.{0,100}$', 'Max 100 characters']}
+      - {label: "Yazar / Author", name: "author", widget: "string", required: false, i18n: duplicate, pattern: ['^.{0,50}$', 'Max 50 characters']}
+      - {label: "Tarih / Date", name: "date", widget: "datetime", i18n: duplicate}
+      - {label: "Özet / Summary", name: "description", widget: "text", required: false, i18n: true, pattern: ['^[\s\S]{0,200}$', 'Max 200 characters']}
+      - {label: "Kapak Görseli / Cover Image", name: "image", widget: "image", required: false, i18n: duplicate}
+      - {label: "İçerik / Content", name: "body", widget: "markdown", i18n: true}

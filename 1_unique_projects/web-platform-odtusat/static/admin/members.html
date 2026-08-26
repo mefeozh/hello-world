@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Üye Listesi – Admin | ODTÜ-SAT</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f2f5;
+            color: #24292e;
+            min-height: 100vh;
+        }
+
+        /* ── Header ── */
+        header {
+            background: #1359B6;
+            color: #fff;
+            padding: 0 24px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header a {
+            color: rgba(255,255,255,.75);
+            text-decoration: none;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            white-space: nowrap;
+        }
+        header a:hover { color: #fff; }
+        header h1 { font-size: 16px; font-weight: 600; flex: 1; }
+
+        /* ── Layout ── */
+        .container { max-width: 960px; margin: 24px auto; padding: 0 20px; }
+
+        /* ── Status banner ── */
+        .banner {
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            display: none;
+        }
+        .banner.success { display: block; background: #d1fae5; color: #065f46; border: 1px solid #34d399; }
+        .banner.error   { display: block; background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+        .banner.info    { display: block; background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+
+        /* ── Toolbar ── */
+        .toolbar {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .search-wrap { position: relative; flex: 1; min-width: 220px; }
+        .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #9ca3af; pointer-events: none; }
+        .search-input {
+            width: 100%;
+            padding: 9px 12px 9px 34px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 14px;
+            background: #fff;
+            outline: none;
+            transition: border-color .15s;
+        }
+        .search-input:focus { border-color: #1359B6; box-shadow: 0 0 0 3px rgba(19,89,182,.12); }
+        .count { font-size: 13px; color: #6b7280; white-space: nowrap; }
+        .btn {
+            padding: 9px 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            transition: opacity .15s, transform .05s;
+        }
+        .btn:active { transform: scale(0.97); }
+        .btn:disabled { opacity: .5; cursor: not-allowed; }
+        .btn-primary  { background: #1359B6; color: #fff; }
+        .btn-primary:hover:not(:disabled) { background: #0f4a9c; }
+        .btn-success  { background: #059669; color: #fff; }
+        .btn-success:hover:not(:disabled) { background: #047857; }
+
+        /* ── Add form ── */
+        .add-card {
+            background: #fff;
+            border: 2px dashed #93c5fd;
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            display: none;
+        }
+        .add-card.open { display: block; }
+        .add-card h3 { font-size: 14px; font-weight: 600; color: #1359B6; margin-bottom: 12px; }
+        .add-fields { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end; }
+        .field-group { display: flex; flex-direction: column; gap: 4px; }
+        .field-group label { font-size: 12px; color: #6b7280; font-weight: 500; }
+        .field-group input {
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color .15s;
+        }
+        .field-group input:focus { border-color: #1359B6; box-shadow: 0 0 0 3px rgba(19,89,182,.12); }
+        .field-group.fg-no input  { width: 110px; }
+        .field-group.fg-name input { width: 260px; }
+        .field-group.fg-year input { width: 90px; }
+        .add-actions { display: flex; gap: 8px; margin-top: 14px; }
+        .btn-cancel { background: #f3f4f6; color: #374151; }
+        .btn-cancel:hover { background: #e5e7eb; }
+
+        /* ── Table card ── */
+        .table-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,.08);
+        }
+        .table-card table { border-radius: 10px; }
+        /* Round the outer corners of the first header row */
+        thead th:first-child { border-radius: 10px 0 0 0; }
+        thead th:last-child  { border-radius: 0 10px 0 0; }
+        /* Round the last row's corners */
+        tbody tr:last-child td:first-child { border-radius: 0 0 0 10px; }
+        tbody tr:last-child td:last-child  { border-radius: 0 0 10px 0; }
+        table { width: 100%; border-collapse: collapse; }
+        thead th {
+            background: #f9fafb;
+            padding: 11px 16px;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 600;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+            border-bottom: 1px solid #e5e7eb;
+            position: sticky;
+            top: 56px; /* below fixed header */
+            z-index: 10;
+        }
+        tbody td { padding: 10px 16px; font-size: 14px; border-bottom: 1px solid #f3f4f6; }
+        tbody tr:last-child td { border-bottom: none; }
+        tbody tr:hover td { background: #f0f7ff; }
+        .td-no   { width: 110px; font-weight: 600; color: #1359B6; }
+        .td-year { width: 130px; color: #374151; }
+        .td-act  { width: 80px; text-align: right; }
+        .btn-del {
+            background: none;
+            border: 1px solid #fca5a5;
+            color: #dc2626;
+            padding: 4px 11px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: background .12s;
+        }
+        .btn-del:hover { background: #fee2e2; }
+        .empty-row td { text-align: center; padding: 48px; color: #9ca3af; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/admin/">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            Admin Paneli
+        </a>
+        <h1>Üye Listesi Yönetimi</h1>
+    </header>
+
+    <div class="container">
+        <div id="banner" class="banner"></div>
+
+        <div class="toolbar">
+            <div class="search-wrap">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                <input type="text" class="search-input" id="search" placeholder="Üye no, isim veya yıla göre ara…" autocomplete="off">
+            </div>
+            <span class="count" id="count"></span>
+            <button class="btn btn-primary" onclick="toggleAddForm()">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+                Yeni Üye
+            </button>
+            <button class="btn btn-success" id="save-btn" onclick="saveMembers()" disabled>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                Kaydet
+            </button>
+        </div>
+
+        <div class="add-card" id="add-card">
+            <h3>Yeni Üye Ekle</h3>
+            <div class="add-fields">
+                <div class="field-group fg-no">
+                    <label for="new-no">Üye No <span style="color:#9ca3af;font-weight:400">(isteğe bağlı)</span></label>
+                    <input type="number" id="new-no" placeholder="örn: 1" min="1">
+                </div>
+                <div class="field-group fg-name">
+                    <label for="new-name">Adı Soyadı</label>
+                    <input type="text" id="new-name" placeholder="örn: Gökhan Türe">
+                </div>
+                <div class="field-group fg-year">
+                    <label for="new-year">Üyelik Yılı</label>
+                    <input type="text" id="new-year" placeholder="örn: 1985" maxlength="4">
+                </div>
+            </div>
+            <div class="add-actions">
+                <button class="btn btn-primary" onclick="addMember()">Ekle</button>
+                <button class="btn btn-cancel" onclick="toggleAddForm()">İptal</button>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="td-no">Üye No</th>
+                        <th>Adı Soyadı</th>
+                        <th class="td-year">Üyelik Yılı</th>
+                        <th class="td-act"></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr class="empty-row"><td colspan="4">Yükleniyor…</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const API    = 'http://localhost:8081/api/v1';
+        const BRANCH = 'main';
+        const PATH   = 'data/members.yaml';
+
+        let allMembers = [];
+        let dirty = false;
+
+        function setDirty(val) {
+            dirty = val;
+            document.getElementById('save-btn').disabled = !val;
+        }
+
+        /* ── API helpers ── */
+        async function apiCall(action, params) {
+            const r = await fetch(API, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action, params })
+            });
+            const json = await r.json();
+            if (!r.ok || json.error) throw new Error(json.error || ('HTTP ' + r.status));
+            return json;
+        }
+
+        /* ── Banner ── */
+        let bannerTimer;
+        function showBanner(msg, type) {
+            const el = document.getElementById('banner');
+            el.className = 'banner ' + type;
+            el.innerHTML = msg;
+            clearTimeout(bannerTimer);
+            if (type === 'success' || type === 'info') {
+                bannerTimer = setTimeout(() => { el.className = 'banner'; }, 4000);
+            }
+        }
+
+        /* ── Load ── */
+        async function loadMembers() {
+            try {
+                const res = await apiCall('getEntry', { path: PATH, branch: BRANCH });
+                const parsed = jsyaml.load(res.data);
+                allMembers = parsed.members || [];
+                renderTable();
+                showBanner('✓ ' + allMembers.length + ' üye yüklendi.', 'info');
+            } catch (e) {
+                showBanner(
+                    '<b>Yüklenemedi.</b> decap-server çalışıyor mu? ' +
+                    '(<code>npx decap-server</code>) &nbsp;|&nbsp; Hata: ' + e.message,
+                    'error'
+                );
+            }
+        }
+
+        /* ── Render ── */
+        function esc(s) {
+            return String(s)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        function renderTable() {
+            const q = document.getElementById('search').value.toLowerCase();
+            const rows = q
+                ? allMembers.filter(m =>
+                    String(m.number ?? '').includes(q) ||
+                    m.name.toLowerCase().includes(q) ||
+                    String(m.year).includes(q))
+                : allMembers.slice();
+
+            rows.reverse();
+
+            document.getElementById('count').textContent =
+                q ? rows.length + ' / ' + allMembers.length + ' üye'
+                  : allMembers.length + ' üye';
+
+            const tbody = document.getElementById('tbody');
+            if (!rows.length) {
+                tbody.innerHTML = '<tr class="empty-row"><td colspan="4">Sonuç bulunamadı.</td></tr>';
+                return;
+            }
+            tbody.innerHTML = rows.map(m => {
+                const origIdx = allMembers.indexOf(m);
+                const numDisplay = (m.number != null && m.number !== '')
+                    ? esc(m.number)
+                    : '<span style="color:#9ca3af">–</span>';
+                return `
+                <tr>
+                    <td class="td-no">${numDisplay}</td>
+                    <td>${esc(m.name)}</td>
+                    <td class="td-year">${esc(m.year)}</td>
+                    <td class="td-act">
+                        <button class="btn-del" onclick="deleteMember(${origIdx})">Sil</button>
+                    </td>
+                </tr>`;
+            }).join('');
+        }
+
+        /* ── Delete ── */
+        function deleteMember(idx) {
+            const m = allMembers[idx];
+            if (!m) return;
+            const numLabel = (m.number != null && m.number !== '') ? m.number : '(bilinmiyor)';
+            if (!confirm(
+                'Üye siliniyor:\n\n' +
+                '  No: ' + numLabel + '\n' +
+                '  İsim: ' + m.name + '\n' +
+                '  Yıl: ' + m.year + '\n\n' +
+                'Emin misiniz?'
+            )) return;
+            allMembers.splice(idx, 1);
+            setDirty(true);
+            renderTable();
+        }
+
+        /* ── Add form ── */
+        function toggleAddForm() {
+            const card = document.getElementById('add-card');
+            card.classList.toggle('open');
+            if (card.classList.contains('open')) {
+                document.getElementById('new-no').focus();
+            }
+        }
+
+        function addMember() {
+            const numRaw  = document.getElementById('new-no').value.trim();
+            const name    = document.getElementById('new-name').value.trim();
+            const year    = document.getElementById('new-year').value.trim();
+
+            const hasNumber = numRaw !== '';
+            const number    = hasNumber ? parseInt(numRaw, 10) : null;
+
+            if (hasNumber && (isNaN(number) || number < 1)) { alert('Geçerli bir üye numarası giriniz.'); return; }
+            if (!name)                                        { alert('Adı Soyadı boş bırakılamaz.'); return; }
+            if (!/^\d{4}$/.test(year))                       { alert('Üyelik yılı 4 haneli olmalıdır (örn: 2026).'); return; }
+            if (hasNumber && allMembers.find(m => m.number === number)) {
+                alert('Bu üye numarası zaten mevcut: ' + number); return;
+            }
+
+            const entry = hasNumber ? { number, name, year } : { name, year };
+
+            if (hasNumber) {
+                // Find the first numbered member whose number exceeds the new one.
+                // Null-numbered members are skipped — they keep their positions.
+                let insertIdx = allMembers.length;
+                for (let i = 0; i < allMembers.length; i++) {
+                    const n = allMembers[i].number;
+                    if (n != null && n !== '' && n > number) {
+                        insertIdx = i;
+                        break;
+                    }
+                }
+                allMembers.splice(insertIdx, 0, entry);
+            } else {
+                // No number — append at the end, preserving existing order
+                allMembers.push(entry);
+            }
+
+            setDirty(true);
+
+            document.getElementById('new-no').value   = '';
+            document.getElementById('new-name').value = '';
+            document.getElementById('new-year').value = '';
+            document.getElementById('add-card').classList.remove('open');
+            renderTable();
+            showBanner('✓ Üye eklendi. Değişiklikleri kaydetmeyi unutmayın.', 'info');
+        }
+
+        /* ── Save ── */
+        async function saveMembers() {
+            const btn = document.getElementById('save-btn');
+            btn.disabled = true;
+            btn.lastChild.textContent = ' Kaydediliyor…';
+
+            try {
+                const raw = jsyaml.dump(
+                    { members: allMembers },
+                    { allowUnicode: true, lineWidth: -1, quotingType: "'", noRefs: true }
+                );
+
+                await apiCall('persistEntry', {
+                    branch: BRANCH,
+                    dataFiles: [{
+                        path: PATH,
+                        slug: 'members',
+                        raw: raw
+                    }],
+                    assets: [],
+                    options: {
+                        commitMessage: 'Admin: üye listesi güncellendi',
+                        useWorkflow: false,
+                        status: 'published'
+                    }
+                });
+
+                setDirty(false);
+                showBanner('✓ Değişiklikler kaydedildi ve commit oluşturuldu.', 'success');
+            } catch (e) {
+                showBanner('<b>Kayıt başarısız:</b> ' + e.message, 'error');
+                btn.disabled = false; // re-enable on error so user can retry
+            } finally {
+                btn.lastChild.textContent = ' Kaydet';
+            }
+        }
+
+        /* ── Events ── */
+        document.getElementById('search').addEventListener('input', renderTable);
+
+        /* Enter key in add form jumps fields and submits */
+        ['new-no', 'new-name', 'new-year'].forEach(function(id, i, ids) {
+            document.getElementById(id).addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    if (i < ids.length - 1) document.getElementById(ids[i + 1]).focus();
+                    else addMember();
+                }
+            });
+        });
+
+        window.addEventListener('beforeunload', function(e) {
+            if (dirty) { e.preventDefault(); e.returnValue = ''; }
+        });
+
+        loadMembers();
+    </script>
+</body>
+</html>

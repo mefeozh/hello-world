@@ -1,0 +1,59 @@
+<header class="site-header">
+    <div class="container header-container">
+        <a href="{{ site.Home.Permalink }}" class="logo-link">
+            <picture>
+                <img src="{{ "assets/images/logo.png" | absURL }}" alt="ODTÜ-SAT Logo" class="logo-img" width="60"
+                    height="60">
+            </picture>
+            <div class="logo-text">
+                <h1 class="site-title">ODTÜ-SAT</h1>
+                <p class="site-subtitle">{{ i18n "society_subtitle" }}</p>
+            </div>
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="{{ site.Home.Permalink }}" class="{{ if .IsHome }}active{{ end }}">{{ i18n "home" }}</a>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#" class="{{ if eq .Section "subgroups" }}active{{ end }}">{{ i18n "subgroups" }}</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ i18n "afag_slug" | relLangURL }}">{{ i18n "afag_code" }}</a></li>
+                        <li><a href="{{ i18n "bag_slug" | relLangURL }}">{{ i18n "bag_code" }}</a></li>
+                        <li><a href="{{ i18n "fovag_slug" | relLangURL }}">{{ i18n "fovag_code" }}</a></li>
+                        <li><a href="{{ i18n "madag_slug" | relLangURL }}">{{ i18n "madag_code" }}</a></li>
+                        <li><a href="{{ i18n "ekog_slug" | relLangURL }}">{{ i18n "ekog_code" }}</a></li>
+                        <li><a href="{{ i18n "sdg_slug" | relLangURL }}">{{ i18n "sdg_code" }}</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#" class="{{ if .File }}{{ if in (slice "biz-kimiz" "uyelik" "uye-listesi") .File.ContentBaseName }}active{{ end }}{{ end }}">{{ i18n "about_us" }}</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ i18n "biz_kimiz_slug" | relLangURL }}">{{ i18n "who_are_we" }}</a></li>
+                        <li><a href="{{ i18n "uyelik_slug" | relLangURL }}">{{ i18n "membership" }}</a></li>
+                        <li><a href="{{ i18n "uye_listesi_slug" | relLangURL }}">{{ i18n "member_list" }}</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ i18n "tuzuk_slug" | relLangURL }}" class="{{ if .File }}{{ if eq .File.ContentBaseName "tuzuk" }}active{{ end }}{{ end }}">{{ i18n "bylaws" }}</a></li>
+                <li><a href="{{ i18n "sss_slug" | relLangURL }}" class="{{ if .File }}{{ if eq .File.ContentBaseName "sss" }}active{{ end }}{{ end }}">{{ i18n "faq" }}</a></li>
+                <li><a href="{{ "/blog" | relLangURL }}" class="{{ if eq .Section "blog" }}active{{ end }}">Blog</a></li>
+                <!-- Language Switcher -->
+                {{ if .IsTranslated }}
+                {{ range .Translations }}
+                <li><a href="{{ .Permalink }}" lang="{{ .Lang }}">{{ upper .Lang }}</a></li>
+                {{ end }}
+                {{ else }}
+                {{ range site.Languages }}
+                {{ if ne .Lang $.Site.Language.Lang }}
+                <li><a href="/{{ .Lang }}/" lang="{{ .Lang }}">{{ upper .Lang }}</a></li>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </ul>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>

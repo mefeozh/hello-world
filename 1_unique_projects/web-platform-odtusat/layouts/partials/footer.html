@@ -1,0 +1,54 @@
+<footer class="site-footer">
+    <div class="container footer-container">
+        <div class="footer-content-grid">
+            <!-- Logo & Copyright -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <picture>
+                        <img src="{{ "assets/images/logo.png" | absURL }}" alt="ODTÜ-SAT Logo" width="80" height="80" loading="lazy">
+                    </picture>
+                </div>
+                <p class="copyright">{{ i18n "copyright" }}</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>{{ i18n "about_us" | upper }}</h4>
+                <p>{{ i18n "footer_about_text" }}</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>{{ i18n "contact" }}</h4>
+                <p>ODTÜ-SAT Odası, ODTÜKENT Spor Salonu (Spor Merkezi), Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara</p>
+                <p><a href="mailto:sat-yk@metu.edu.tr">sat-yk@metu.edu.tr</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function (e) {
+        e.stopPropagation();
+        document.querySelector('.main-nav').classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function (e) {
+        const nav = document.querySelector('.main-nav');
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        if (nav.classList.contains('active') && !nav.contains(e.target) && !menuBtn.contains(e.target)) {
+            nav.classList.remove('active');
+        }
+    });
+
+    // Read More Functionality
+    function toggleReadMore(btn) {
+        const desc = btn.previousElementSibling;
+        desc.classList.toggle('expanded');
+
+        if (desc.classList.contains('expanded')) {
+            btn.textContent = '{{ i18n "show_less" }}';
+        } else {
+            btn.textContent = '{{ i18n "read_more" }}';
+        }
+    }
+</script>

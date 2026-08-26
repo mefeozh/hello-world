@@ -1,0 +1,216 @@
+[home]
+other = "Home"
+
+[subgroups]
+other = "Sub-groups"
+
+[about_us]
+other = "About Us"
+
+[who_are_we]
+other = "Who Are We?"
+
+[membership]
+other = "Membership"
+
+[member_list]
+other = "Member List"
+
+[bylaws]
+other = "Bylaws"
+
+[faq]
+other = "F.A.Q."
+
+[society_name]
+other = "METU Underwater Society"
+
+[society_subtitle]
+other = "METU Underwater Society"
+
+[since_1985]
+other = "Since 1985"
+
+[copyright]
+other = "©2026 ODTÜ-SAT | All rights reserved."
+
+[contact]
+other = "CONTACT"
+
+[read_more]
+other = "Read More"
+
+[show_less]
+other = "Show Less"
+
+[footer_about_text]
+other = "Turkey's pioneering diving society maintained by Middle East Technical University students since 1985."
+
+[site_description]
+other = "METU Underwater Society - Turkey's leading diving society since 1985. Underwater research, Mediterranean monk seal conservation, cave diving and more."
+
+[our_subgroups]
+other = "Our Sub-groups"
+
+[adopt_title]
+other = "ADOPT A MEDITERRANEAN MONK SEAL"
+
+[adopt_text]
+other = "Only 700 individuals remain. Support our work by adopting one to protect these rare seals in Turkey and beyond."
+
+[get_info]
+other = "Get Info"
+
+[projects_title]
+other = "Our Projects and Sponsors"
+
+[mission_title]
+other = "Our Mission"
+
+[mission_quote]
+other = "“Leave nothing but bubbles,<br>Take nothing but pictures,<br>Kill nothing but time…”"
+
+[latest_blog_posts]
+other = "Latest Blog Posts"
+
+[more]
+other = "More"
+
+[afag_name]
+other = "Mediterranean Monk Seal<br>Research Group"
+
+[bag_name]
+other = "Wreck Research<br>Group"
+
+[fovag_name]
+other = "Photography and<br>Videography Group"
+
+[madag_name]
+other = "Cave Diving and<br>Research Group"
+
+[ekog_name]
+other = "Ecological Research<br>Group"
+
+[sdg_name]
+other = "Free Diving<br>Group"
+
+[project1_title]
+other = "Posidonia Oceanica Distribution Research Project"
+
+[project1_desc]
+other = "This project aims to examine the distribution and characteristics of Posidonia oceanica, endemic to the Mediterranean. Determining the species' existence, observing changes, and ensuring protection through public awareness are among the goals."
+
+[project2_title]
+other = "Assessment of Fish Fauna created by Uluburun III"
+
+[project2_desc]
+other = "The replica of the Uluburun shipwreck is used for ecological research within the scope of the Underwater Archaeopark project in Kaş-Hidayet Bay. Our community and the SAD Ecology group investigate the effect of the wreck on the fish communities in the region and seasonal changes with seasonal samplings."
+
+[project3_title]
+other = "\"Barrier-Free METU Meets the Blue\" Project"
+
+[project3_desc]
+other = "Setting out with the slogan \"Nothing is an Obstacle to Diving, Not Even Ankara...\", the \"Barrier-Free METU Meets the Blue\" project was carried out in Marmaris to break the perception of \"being disabled\" in society and to provide equal opportunities for everyone. This meaningful project proved once again that diving knows no barriers and was deemed worthy of the Event of the Year award."
+
+[blog1_date]
+other = "March 10, 2026"
+
+[blog1_title]
+other = "Scuba Diving Guide for Beginners"
+
+[blog1_desc]
+other = "Tips about essential equipment, things to watch out for, and the first diving experience for those new to diving."
+
+[blog2_date]
+other = "March 5, 2026"
+
+[blog2_title]
+other = "Secrets of Underwater Photography"
+
+[blog2_desc]
+other = "Correct light usage, composition techniques, and equipment selection for capturing mesmerizing shots underwater."
+
+[blog3_date]
+other = "February 28, 2026"
+
+[blog3_title]
+other = "Mediterranean Monk Seals and Their Habitats"
+
+[blog3_desc]
+other = "The habitats of the endangered Mediterranean monk seals living on Turkey's coasts and their place in the ecological system."
+
+[under_construction]
+other = "Under Construction"
+
+[coming_soon_text]
+other = "This page is currently being prepared. It will be available very soon."
+
+[back_to_blog]
+other = "← Back to Blogs"
+
+[back_to_home]
+other = "Back to Home"
+
+[afag_code]
+other = "MSRG"
+
+[bag_code]
+other = "WRG"
+
+[fovag_code]
+other = "PVRG"
+
+[madag_code]
+other = "CDRG"
+
+[ekog_code]
+other = "ECOG"
+
+[sdg_code]
+other = "FDG"
+
+[afag_slug]
+other = "msrg"
+
+[bag_slug]
+other = "wrg"
+
+[fovag_slug]
+other = "pvrg"
+
+[madag_slug]
+other = "cdrg"
+
+[ekog_slug]
+other = "ecog"
+
+[sdg_slug]
+other = "fdg"
+
+[tuzuk_slug]
+other = "bylaws"
+
+[sss_slug]
+other = "faq"
+
+[biz_kimiz_slug]
+other = "who-are-we"
+
+[uyelik_slug]
+other = "membership"
+
+[uye_listesi_slug]
+other = "member-list"
+
+[member_number]
+other = "Member No."
+
+[member_name]
+other = "Full Name"
+
+[member_year]
+other = "Membership Year"
+
+[member_search_placeholder]
+other = "Search Members (Name, No. or Year)..."
+

@@ -1,0 +1,63 @@
+{{ define "main" }}
+<!-- Page Hero -->
+<section class="hero-section page-hero">
+    <picture class="hero-bg pre-blurred">
+        {{ if .Params.hero_image_avif }}
+        <source srcset="{{ .Params.hero_image_avif | absURL }}" type="image/avif">
+        {{ end }}
+        {{ if .Params.hero_image_jpg }}
+        <img src="{{ .Params.hero_image_jpg | absURL }}" alt="Hero Background">
+        {{ else if .Params.image }}
+        <img src="{{ .Params.image | absURL }}" alt="Hero Background">
+        {{ else }}
+        <source srcset="{{ "assets/images/hero-bg-blurred.avif" | absURL }}" type="image/avif">
+        <img src="{{ "assets/images/hero-bg-blurred.jpg" | absURL }}" alt="Hero Background">
+        {{ end }}
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <h2 class="hero-title">{{ .Title }}</h2>
+        {{ if .Params.subtitle }}
+        <p class="hero-subtitle">{{ .Params.subtitle }}</p>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="content-block">
+            {{ .Content | safeHTML }}
+        </div>
+
+        <div class="pages-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+            {{ range .Pages }}
+            <article class="page-card"
+                style="border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; flex-direction: column; background: #fff;">
+                {{ if .Params.image }}
+                <a href="{{ .Permalink }}" style="display: block; height: 200px; overflow: hidden;">
+                    <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                {{ else if .Params.hero_image_jpg }}
+                <a href="{{ .Permalink }}" style="display: block; height: 200px; overflow: hidden;">
+                    <img src="{{ .Params.hero_image_jpg | absURL }}" alt="{{ .Title }}"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                {{ end }}
+                <div class="page-card-content" style="padding: 20px;">
+                    <h3 style="margin: 0 0 10px 0;"><a href="{{ .Permalink }}"
+                            style="color: var(--primary-color); text-decoration: none;">{{ .Title }}</a></h3>
+                    <p style="font-size: 0.95rem; color: var(--text-light); line-height: 1.5;">{{ .Summary | truncate
+                        150 }}</p>
+                    <a href="{{ .Permalink }}"
+                        style="display: inline-block; margin-top: 15px; font-weight: 600; color: var(--primary-color);">Daha
+                        Fazlası &rarr;</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

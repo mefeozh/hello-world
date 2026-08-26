@@ -1,0 +1,2497 @@
+members:
+  - number: 1
+    name: Kemal Gökhan Türe
+    year: '1985'
+  - number: 2
+    name: Erdal Özhan
+    year: '1985'
+  - number: 3
+    name: Ahmet Cevdet Yalçıner
+    year: '1985'
+  - number: 4
+    name: Bülent Akınoğlu
+    year: '1985'
+  - number: 5
+    name: Serpil Kozludere
+    year: '1985'
+  - number: 6
+    name: Selim Toprak
+    year: '1985'
+  - number: 7
+    name: Elvan Yurdun
+    year: '1985'
+  - number: 8
+    name: Cem Orkun Kıraç
+    year: '1985'
+  - number: null
+    name: Yaman Asil
+    year: '1985'
+  - number: null
+    name: Uğur Gürşad Yalçıner
+    year: '1985'
+  - number: null
+    name: Durul Burak Eti
+    year: '1986'
+  - number: null
+    name: Kayhan Güceli
+    year: '1986'
+  - number: null
+    name: Yalçın Savaş
+    year: '1987'
+  - number: null
+    name: Fatih Tunalı
+    year: '1987'
+  - number: null
+    name: Can Tunçsav
+    year: '1987'
+  - number: null
+    name: Ali Batur
+    year: '1988'
+  - number: null
+    name: Asutay Akbayır
+    year: '1988'
+  - number: null
+    name: Rahmi Uysalkan
+    year: '1989'
+  - number: null
+    name: Okan Yöney
+    year: '1989'
+  - number: null
+    name: Zafer Kızılkaya
+    year: '1989'
+  - number: null
+    name: Taner Şekercioğlu
+    year: '1989'
+  - number: 43
+    name: M. Kemal Günay
+    year: '1991'
+  - number: 44
+    name: D. Kemal Özyurt
+    year: '1991'
+  - number: 49
+    name: Yiğit Özgünel
+    year: '1991'
+  - number: 52
+    name: M. Onur Sonuvar
+    year: '1991'
+  - number: 53
+    name: Okan Taktak
+    year: '1990'
+  - number: null
+    name: Harun Güçlüsoy
+    year: '1990'
+  - number: null
+    name: Erkut Arcak
+    year: '1990'
+  - number: null
+    name: Evrim İmer
+    year: '1990'
+  - number: null
+    name: Saner Gülsöken
+    year: '1991'
+  - number: null
+    name: Ayşegül Akdeniz Uras
+    year: '1991'
+  - number: null
+    name: Hakan Türkmenoğlu
+    year: '1991'
+  - number: null
+    name: Kerem Özsoy
+    year: '1991'
+  - number: null
+    name: Taner Yöney
+    year: '1991'
+  - number: null
+    name: Serhan Poçan
+    year: '1991'
+  - number: null
+    name: İlker Ülker
+    year: '1991'
+  - number: null
+    name: Hilmi Ertüzün
+    year: '1991'
+  - number: null
+    name: Umut Ali Yener
+    year: '1991'
+  - number: null
+    name: Tamer Yörükoğlu
+    year: '1991'
+  - number: null
+    name: Oğuz Yiğiterhan
+    year: '1991'
+  - number: null
+    name: Lütfü Yiğit Özyurt
+    year: '1991'
+  - number: 67
+    name: Pınar Gedik Özer
+    year: '1992'
+  - number: 68
+    name: Sedat Uğur
+    year: '1992'
+  - number: 69
+    name: Haldun Ülkenli
+    year: '1992'
+  - number: 80
+    name: Serdar Hamarat
+    year: '1992'
+  - number: null
+    name: Gamze Uğur
+    year: '1992'
+  - number: null
+    name: Nesimi Ozan Veryeri
+    year: '1992'
+  - number: null
+    name: Taylan Şen
+    year: '1992'
+  - number: null
+    name: Atila Kara
+    year: '1992'
+  - number: null
+    name: Ceren Uzel
+    year: '1992'
+  - number: 88
+    name: Gökhan Tan
+    year: '1993'
+  - number: 107
+    name: Mutlu Yücel
+    year: '1993'
+  - number: 108
+    name: Erol İren
+    year: '1993'
+  - number: 113
+    name: S.Cüneyt Taşdelen
+    year: '1993'
+  - number: 118
+    name: Kerem Pekkan
+    year: '1993'
+  - number: 121
+    name: Mutlu Turgut
+    year: '1993'
+  - number: 126
+    name: Ceren Balkır
+    year: '1993'
+  - number: 132
+    name: Ilgaz Korkmaz
+    year: '1993'
+  - number: 133
+    name: Vâlâ Tetik
+    year: '1993'
+  - number: 140
+    name: Altay Özaygen
+    year: '1993'
+  - number: null
+    name: Atilla Uras
+    year: '1993'
+  - number: null
+    name: Ayşegül Birand
+    year: '1993'
+  - number: null
+    name: Gamze Saban
+    year: '1993'
+  - number: null
+    name: Serdar Ölez
+    year: '1993'
+  - number: null
+    name: Kutay Ülkü
+    year: '1993'
+  - number: null
+    name: Hakan Şapçı
+    year: '1993'
+  - number: null
+    name: Ayça Akın Hamarat
+    year: '1993'
+  - number: null
+    name: Murat Yavuz
+    year: '1993'
+  - number: null
+    name: Evren Aysev
+    year: '1993'
+  - number: 148
+    name: Kâmil Bulut
+    year: '1994'
+  - number: 151
+    name: A.Türker Gürer
+    year: '1994'
+  - number: 153
+    name: Serkan Aydınhan
+    year: '1994'
+  - number: 155
+    name: Ela Serdaroğlu
+    year: '1994'
+  - number: 156
+    name: Taner Ciğeroğlu
+    year: '1994'
+  - number: 157
+    name: Yahya Cihan Darıcı
+    year: '1994'
+  - number: 161
+    name: Ali İhsan Tuzcu
+    year: '1994'
+  - number: 166
+    name: Gün Önen
+    year: '1994'
+  - number: 170
+    name: İhsan Devrim Gın
+    year: '1994'
+  - number: 174
+    name: Koray Gencel
+    year: '1994'
+  - number: 175
+    name: Eren Gürses
+    year: '1994'
+  - number: 177
+    name: Volkan Evrin
+    year: '1994'
+  - number: 181
+    name: Uluç Güner
+    year: '1994'
+  - number: 184
+    name: Ergin İren
+    year: '1994'
+  - number: null
+    name: Ünal Vural
+    year: '1994'
+  - number: null
+    name: Özgür Alioğlu
+    year: '1994'
+  - number: null
+    name: Çağatay Çelik
+    year: '1994'
+  - number: null
+    name: Fatih Şenyurt
+    year: '1994'
+  - number: null
+    name: Oya Demirören Güleyin
+    year: '1994'
+  - number: 202
+    name: Melih Özbek
+    year: '1995'
+  - number: 203
+    name: Gülnur Tumbat
+    year: '1995'
+  - number: 207
+    name: Umut Tuncer
+    year: '1995'
+  - number: 209
+    name: Gökben Utkun
+    year: '1995'
+  - number: 210
+    name: Belma Namlı
+    year: '1995'
+  - number: 211
+    name: Eylem Elif Koç
+    year: '1995'
+  - number: 215
+    name: Mehmet Hikmet Borahan
+    year: '1995'
+  - number: 216
+    name: Kerim Çakmak
+    year: '1995'
+  - number: 217
+    name: Mert Derman
+    year: '1995'
+  - number: 219
+    name: Alper Akmeşe
+    year: '1995'
+  - number: 220
+    name: Emre Altuğ Yavuz
+    year: '1995'
+  - number: 223
+    name: Oytun E. Tuzcu
+    year: '1995'
+  - number: 225
+    name: Berna Bayazıt
+    year: '1995'
+  - number: 226
+    name: Arcan Kiremitçi
+    year: '1995'
+  - number: 227
+    name: Barış Tuncer
+    year: '1995'
+  - number: 228
+    name: Almıla Güvenç Yazıcıoğlu
+    year: '1995'
+  - number: 230
+    name: Gün Acar
+    year: '1995'
+  - number: 231
+    name: Hakan Ertürk
+    year: '1995'
+  - number: null
+    name: Murat Şavkılıoğlu
+    year: '1995'
+  - number: null
+    name: Pınar Araz Özgu
+    year: '1995'
+  - number: null
+    name: Başak Kerimoğlu
+    year: '1995'
+  - number: null
+    name: Ebru Değertekin
+    year: '1995'
+  - number: null
+    name: Meltem Saldamlı
+    year: '1995'
+  - number: 244
+    name: Mert Çelik
+    year: '1996'
+  - number: 247
+    name: Mustafa Gök
+    year: '1996'
+  - number: 251
+    name: Uzay Uğur Sezen
+    year: '1996'
+  - number: 252
+    name: Esin İzat
+    year: '1996'
+  - number: 253
+    name: Ö.Alper Savaş
+    year: '1996'
+  - number: 254
+    name: Tevhide F. Altekin
+    year: '1996'
+  - number: 256
+    name: Deniz Özaslan
+    year: '1996'
+  - number: 260
+    name: Özgür Yarar
+    year: '1996'
+  - number: 262
+    name: Banu Bayazıt
+    year: '1996'
+  - number: 281
+    name: Gökhan Deniz
+    year: '1997'
+  - number: 283
+    name: Y.Onur Kaş
+    year: '1997'
+  - number: 284
+    name: Defne Bayraktar
+    year: '1997'
+  - number: 285
+    name: Murat Çağrı Yaşar
+    year: '1997'
+  - number: 286
+    name: S.Gökhan Nas
+    year: '1997'
+  - number: 287
+    name: Levent Kumyol
+    year: '1997'
+  - number: 288
+    name: Özer Öner
+    year: '1997'
+  - number: 289
+    name: Payam Mirzajani
+    year: '1997'
+  - number: 290
+    name: Pınar Demirsoy
+    year: '1997'
+  - number: 291
+    name: Yasemin Dalkılıç
+    year: '1997'
+  - number: 293
+    name: Güzden Varinlioğlu
+    year: '1997'
+  - number: 295
+    name: Öncel Mocan
+    year: '1997'
+  - number: 297
+    name: G.Sarper Saraçoğlu
+    year: '1997'
+  - number: 299
+    name: Mahir Aytar Kutay
+    year: '1997'
+  - number: 300
+    name: Onur Erçin Kıroğlu
+    year: '1997'
+  - number: 302
+    name: Meral Tamer
+    year: '1997'
+  - number: 303
+    name: Mert Gökalp
+    year: '1997'
+  - number: 304
+    name: Tolga İmamoğlu
+    year: '1997'
+  - number: 306
+    name: Mertol Artan
+    year: '1997'
+  - number: 307
+    name: Halit Cenan Mertol
+    year: '1997'
+  - number: 308
+    name: S.Fehmi Ağduk
+    year: '1997'
+  - number: 309
+    name: Pervin Özge Kaplan
+    year: '1997'
+  - number: 310
+    name: M.Cem Omurlak
+    year: '1997'
+  - number: 312
+    name: Orkun Süer
+    year: '1997'
+  - number: 313
+    name: Can Kuterdem
+    year: '1997'
+  - number: 314
+    name: Özgür Tan
+    year: '1997'
+  - number: 315
+    name: Yalın Baştanlar
+    year: '1997'
+  - number: 318
+    name: Berk Sağlık
+    year: '1997'
+  - number: 319
+    name: Özlem Kaya
+    year: '1997'
+  - number: 322
+    name: M.Caner Akıncı
+    year: '1997'
+  - number: 323
+    name: Esra Kuş
+    year: '1998'
+  - number: 324
+    name: Yıldıray Yıldızhan
+    year: '1998'
+  - number: 325
+    name: Selim Yannier
+    year: '1998'
+  - number: 327
+    name: Gonca Soyman
+    year: '1998'
+  - number: 331
+    name: Alper Özbilen
+    year: '1998'
+  - number: 332
+    name: Erinç Şahin
+    year: '1998'
+  - number: 333
+    name: Umut Çankaya
+    year: '1998'
+  - number: 334
+    name: Özgür Şahin
+    year: '1998'
+  - number: 335
+    name: Avşar Yavaş
+    year: '1998'
+  - number: 338
+    name: Mustafa Kemal Doğru
+    year: '1998'
+  - number: 339
+    name: Sevil Alkan
+    year: '1999'
+  - number: 340
+    name: Sinan Güven
+    year: '1999'
+  - number: 342
+    name: Hasan Doğu
+    year: '1999'
+  - number: 344
+    name: A.Korhan Karagöz
+    year: '1999'
+  - number: 345
+    name: Aziz Koru
+    year: '1999'
+  - number: 346
+    name: M.Kerem Topuz
+    year: '1999'
+  - number: 348
+    name: G.Uğur Bozel
+    year: '1999'
+  - number: 349
+    name: Özcan Kayacık
+    year: '1999'
+  - number: 350
+    name: Talat Ersoy İşçioğlu
+    year: '1999'
+  - number: 351
+    name: Gökhan Baykal
+    year: '1999'
+  - number: 352
+    name: Egemen Erdoğan
+    year: '1999'
+  - number: 353
+    name: Ayça Aksu
+    year: '1999'
+  - number: 354
+    name: Doruk Dündar
+    year: '1999'
+  - number: 355
+    name: Yelda Serinağaoğlu
+    year: '1999'
+  - number: 358
+    name: Attila Özgit
+    year: '1999'
+  - number: 361
+    name: İsmail Çifci
+    year: '2000'
+  - number: 362
+    name: Nebahat Çırakkoca
+    year: '2000'
+  - number: 363
+    name: Koray Küçük
+    year: '2000'
+  - number: 364
+    name: Taylan Özgür Toygarlar
+    year: '2000'
+  - number: 365
+    name: Emre Kolaç
+    year: '2000'
+  - number: 367
+    name: Ceren Tuncer
+    year: '2000'
+  - number: 368
+    name: Burcu Ulusoy
+    year: '2000'
+  - number: 370
+    name: Mehmet Aydoğdu
+    year: '2000'
+  - number: 371
+    name: Gökhan Yüksel
+    year: '2000'
+  - number: 372
+    name: Mert Ayaroğlu
+    year: '2000'
+  - number: 374
+    name: M.Deniz Tok
+    year: '2000'
+  - number: 375
+    name: Sadık Alper Bilgil
+    year: '2000'
+  - number: 376
+    name: Ahmet Dikici
+    year: '2000'
+  - number: 379
+    name: Can Üney
+    year: '2000'
+  - number: 380
+    name: Zeren Karabiber
+    year: '2000'
+  - number: 381
+    name: Sema Yılmaz
+    year: '2000'
+  - number: 382
+    name: Verda Akdeniz
+    year: '2001'
+  - number: 383
+    name: Mert Aygen
+    year: '2001'
+  - number: 384
+    name: Ali Selim Aytuna
+    year: '2001'
+  - number: 385
+    name: Çiğdem Bayçay
+    year: '2001'
+  - number: 386
+    name: Cansu Bayındırlı
+    year: '1999'
+  - number: 387
+    name: Ergin Çevik
+    year: '2001'
+  - number: 388
+    name: Osman Koray Demir
+    year: '2001'
+  - number: 391
+    name: Alper Güner
+    year: '2001'
+  - number: 393
+    name: Zeynep Hacıhabiboğlu
+    year: '2001'
+  - number: 394
+    name: Tolga Kanık
+    year: '2001'
+  - number: 397
+    name: Osman Kılıç
+    year: '2001'
+  - number: 398
+    name: Hasan Mutlu
+    year: '2001'
+  - number: 399
+    name: Behçet Mutlubaş
+    year: '2001'
+  - number: 401
+    name: Korhan Özkan
+    year: '2001'
+  - number: 402
+    name: Özlem Öztemel
+    year: '2001'
+  - number: 403
+    name: Esin Saka
+    year: '2001'
+  - number: 405
+    name: Özen Sercan
+    year: '2001'
+  - number: 407
+    name: Melis Şerefoğlu
+    year: '2001'
+  - number: 408
+    name: Onur Tanrıverdi
+    year: '2001'
+  - number: 410
+    name: Murat Tuğrul
+    year: '2001'
+  - number: 412
+    name: Hade Türkmen
+    year: '2001'
+  - number: 413
+    name: Utku Usta
+    year: '2001'
+  - number: 414
+    name: Kubilay Yıldırım
+    year: '2001'
+  - number: 415
+    name: Cemil Yılmaz
+    year: '2001'
+  - number: 416
+    name: Ilgar Veryeri
+    year: '2001'
+  - number: null
+    name: Zeynep Özbıyık Emden
+    year: '2001'
+  - number: 419
+    name: Çağla Özgit
+    year: '2002'
+  - number: 420
+    name: Murat Ugiş
+    year: '2002'
+  - number: 421
+    name: Sinem Beyhan
+    year: '2002'
+  - number: 425
+    name: Volkan Ertürk
+    year: '2002'
+  - number: 426
+    name: Serkan Kırbaş
+    year: '2002'
+  - number: 427
+    name: Burcu Erdoğan
+    year: '2002'
+  - number: 429
+    name: Erdem Öztürk
+    year: '2002'
+  - number: 430
+    name: Billur Çelebi
+    year: '2002'
+  - number: 431
+    name: Gizem Doğu
+    year: '2002'
+  - number: null
+    name: Aysu Erdoğdu
+    year: '2002'
+  - number: 435
+    name: R.Erdem Yıldız
+    year: '2002'
+  - number: 438
+    name: Adem Onur Miksbay
+    year: '2002'
+  - number: 439
+    name: Ayberk Onur Gökseven
+    year: '2002'
+  - number: 440
+    name: Mustafa İspir Gürbüz
+    year: '2002'
+  - number: 441
+    name: Murat Ergin
+    year: '2002'
+  - number: 448
+    name: Fatih Öztürk
+    year: '2002'
+  - number: 450
+    name: Ü.Başak Güleken
+    year: '2002'
+  - number: 451
+    name: Çağrı Kundak
+    year: '2002'
+  - number: 452
+    name: Gürkan Günç
+    year: '2002'
+  - number: 454
+    name: Koray Toykuyu
+    year: '2002'
+  - number: 457
+    name: Emrecan Polat
+    year: '2003'
+  - number: 458
+    name: Tümar Tunur
+    year: '2003'
+  - number: 463
+    name: A.Ceren Satıoğlu
+    year: '2003'
+  - number: 466
+    name: Onur Akbay
+    year: '2003'
+  - number: 468
+    name: Bahar Karabulut
+    year: '2003'
+  - number: 470
+    name: Senem Aslan
+    year: '2003'
+  - number: 471
+    name: Tuba Tunçel
+    year: '2003'
+  - number: null
+    name: Can Uz
+    year: '2003'
+  - number: 480
+    name: Orhan Timuçin
+    year: '2003'
+  - number: 481
+    name: Gülcihan Kurucu
+    year: '2003'
+  - number: 482
+    name: Yeşim Özalp
+    year: '2003'
+  - number: 483
+    name: Burcu Kasapoğlu
+    year: '2003'
+  - number: 486
+    name: Elçin Sakmar
+    year: '2003'
+  - number: 487
+    name: Sinan Sağlam
+    year: '2004'
+  - number: 488
+    name: Esra Çayır
+    year: '2004'
+  - number: 489
+    name: Seda Ekici
+    year: '2004'
+  - number: 490
+    name: Cihangir Ünlütürk
+    year: '2004'
+  - number: 491
+    name: Serra Caner
+    year: '2004'
+  - number: 492
+    name: Elif Ispir Gürbüz
+    year: '2004'
+  - number: 493
+    name: Serap Taçyıldız
+    year: '2004'
+  - number: 494
+    name: Pınar Ünsal
+    year: '2004'
+  - number: 495
+    name: Hande Ceylan
+    year: '2004'
+  - number: 496
+    name: Feray Öztoprak
+    year: '2004'
+  - number: 497
+    name: Emrah Cantekin
+    year: '2004'
+  - number: 498
+    name: Ş.Deniz Oğuz
+    year: '2004'
+  - number: 499
+    name: Onur Alp
+    year: '2004'
+  - number: 500
+    name: F.Alp Çınar
+    year: '2004'
+  - number: 501
+    name: Duygu Öztürk
+    year: '2004'
+  - number: 502
+    name: Atıl İşçen
+    year: '2004'
+  - number: 503
+    name: Uğur H. Tosun
+    year: '2004'
+  - number: 505
+    name: Seza Papak
+    year: '2004'
+  - number: 506
+    name: Aydın Orhan
+    year: '2004'
+  - number: 507
+    name: T.Lütfi Emirmahmutoğlu
+    year: '2004'
+  - number: 508
+    name: Serkan Girgin
+    year: '2004'
+  - number: 511
+    name: Ezgi Bozkurt
+    year: '2004'
+  - number: 514
+    name: Tuna Temizgil
+    year: '2004'
+  - number: 515
+    name: Ö.Ezgi Tabak
+    year: '2004'
+  - number: 516
+    name: Eda Toprakkale
+    year: '2004'
+  - number: 517
+    name: Funda Atun
+    year: '2004'
+  - number: 519
+    name: Çiğdem Toskay
+    year: '2005'
+  - number: 520
+    name: Sema Bağcı
+    year: '2005'
+  - number: 522
+    name: Gökhan Meriçliler
+    year: '2005'
+  - number: 527
+    name: Demet Kırbulut
+    year: '2005'
+  - number: 530
+    name: Okan Karataş
+    year: '2005'
+  - number: 532
+    name: Özge Alaçam
+    year: '2005'
+  - number: 534
+    name: Selda Eren
+    year: '2005'
+  - number: 535
+    name: Necati Çelik
+    year: '2005'
+  - number: 536
+    name: Orhan Ölçücüoğlu
+    year: '2005'
+  - number: 537
+    name: Sevda Altay
+    year: '2005'
+  - number: 538
+    name: İdil Akçetin
+    year: '2005'
+  - number: 540
+    name: Bora Yalçın
+    year: '2005'
+  - number: 542
+    name: Bediz Büke İren
+    year: '2005'
+  - number: 545
+    name: Zehra Tatlıcı
+    year: '2005'
+  - number: 548
+    name: Durmuş Yarımpabuç
+    year: '2005'
+  - number: 549
+    name: Özge Ergin
+    year: '2005'
+  - number: 550
+    name: Gülizar Özyurt
+    year: '2006'
+  - number: 551
+    name: Duygu Selçuklu
+    year: '2006'
+  - number: 552
+    name: Özden Duymaz
+    year: '2006'
+  - number: 553
+    name: A. Damla Atalay
+    year: '2006'
+  - number: 554
+    name: Ayşe Karaoğlu
+    year: '2006'
+  - number: 555
+    name: Levent Ucuzal
+    year: '2006'
+  - number: 556
+    name: K. Taylan Zeyrek
+    year: '2006'
+  - number: 557
+    name: Ebru Dolunay
+    year: '2006'
+  - number: 558
+    name: Ayse Gökçe Bor
+    year: '2006'
+  - number: 560
+    name: Makbule Afsar
+    year: '2006'
+  - number: 561
+    name: Ercan Top
+    year: '2006'
+  - number: 562
+    name: Ebru Kaya
+    year: '2006'
+  - number: 563
+    name: Soner Oruç
+    year: '2006'
+  - number: 564
+    name: Fazıl Gömeç
+    year: '2006'
+  - number: 565
+    name: Esra Demirkol
+    year: '2006'
+  - number: 566
+    name: Orhan Serdar
+    year: '2006'
+  - number: 567
+    name: Gülsen Efe
+    year: '2006'
+  - number: 569
+    name: Çağdaş Öztürk
+    year: '2006'
+  - number: 570
+    name: Pınar Özbey
+    year: '2006'
+  - number: 571
+    name: Berk Seçen
+    year: '2006'
+  - number: 574
+    name: Mehmet Demir
+    year: '2006'
+  - number: 575
+    name: Evren Koban
+    year: '2006'
+  - number: 576
+    name: Özgün Güvener
+    year: '2006'
+  - number: 577
+    name: Rim Khajine
+    year: '2006'
+  - number: 578
+    name: Tolga Akçelik
+    year: '2006'
+  - number: 579
+    name: Oktay Çağlar
+    year: '2006'
+  - number: 580
+    name: Fatih Şen
+    year: '2006'
+  - number: 581
+    name: İlke Süder
+    year: '2006'
+  - number: 582
+    name: Sinem Yener
+    year: '2006'
+  - number: 583
+    name: Ezgi Kırış
+    year: '2006'
+  - number: 584
+    name: Marjan Aikimbaeva
+    year: '2007'
+  - number: 585
+    name: Murat Alıravcı
+    year: '2007'
+  - number: 586
+    name: Ezgi Antmen
+    year: '2007'
+  - number: 587
+    name: Rabia Bülbül
+    year: '2007'
+  - number: 588
+    name: Umut Çıkla
+    year: '2007'
+  - number: 589
+    name: Baha Dinçel
+    year: '2007'
+  - number: 590
+    name: Tarkan Düzgünçınar
+    year: '2007'
+  - number: 591
+    name: Mahmut Duruş
+    year: '2007'
+  - number: 592
+    name: Ali Naci Erdem
+    year: '2007'
+  - number: 593
+    name: Tolga Ergin
+    year: '2007'
+  - number: 594
+    name: Gözde Eşan
+    year: '2007'
+  - number: 595
+    name: Gökçen Fidan
+    year: '2007'
+  - number: 596
+    name: Çağdaş Gücün
+    year: '2007'
+  - number: 597
+    name: Umut Gülkök
+    year: '2007'
+  - number: 598
+    name: Filiz Güneş
+    year: '2007'
+  - number: 599
+    name: Gökhan Hıncal
+    year: '2007'
+  - number: 600
+    name: Mustafa İkiz
+    year: '2007'
+  - number: 601
+    name: Dilşad İçöz
+    year: '2007'
+  - number: 602
+    name: Mehmet Karalar
+    year: '2007'
+  - number: 603
+    name: Tolga Kaptı
+    year: '2007'
+  - number: 604
+    name: Hande Kıraç
+    year: '2007'
+  - number: 605
+    name: Deniz Kotiloğlu
+    year: '2007'
+  - number: 606
+    name: Ceyda Kotiloğlu
+    year: '2007'
+  - number: 607
+    name: Eren Kuranel
+    year: '2007'
+  - number: 608
+    name: Zamirbek Manasov
+    year: '2007'
+  - number: 609
+    name: Ender Nadir
+    year: '2007'
+  - number: 610
+    name: Meltem Örgün
+    year: '2007'
+  - number: 611
+    name: Ecem Teke
+    year: '2007'
+  - number: 612
+    name: Ekin Tuncalı
+    year: '2007'
+  - number: 613
+    name: Ozan Yazgan
+    year: '2007'
+  - number: 614
+    name: Pınar Sayın
+    year: '2007'
+  - number: 615
+    name: Berkin Akın
+    year: '2008'
+  - number: 617
+    name: Fehmi Ümit Akçaoğlu
+    year: '2008'
+  - number: 619
+    name: Ali Serhan Çağan
+    year: '2008'
+  - number: 620
+    name: Z. Ceren Çankaya
+    year: '2008'
+  - number: 621
+    name: Burçe Çifçi
+    year: '2008'
+  - number: 622
+    name: Serkan Düz
+    year: '2008'
+  - number: 623
+    name: Selahattin Erdoğan
+    year: '2008'
+  - number: 624
+    name: Gökhan Fidan
+    year: '2008'
+  - number: 625
+    name: Ali Can Günhan
+    year: '2008'
+  - number: 626
+    name: Erhan Gümüş
+    year: '2008'
+  - number: 628
+    name: Ayşe Günay
+    year: '2008'
+  - number: 629
+    name: Esra Hasanbaş
+    year: '2008'
+  - number: 631
+    name: Nurjol Jyekyei
+    year: '2008'
+  - number: 632
+    name: Başak Koç
+    year: '2008'
+  - number: 633
+    name: Sait Karakaya
+    year: '2008'
+  - number: 634
+    name: Ersin Kocaadam
+    year: '2008'
+  - number: 635
+    name: Koray Oğuz
+    year: '2008'
+  - number: 636
+    name: H. Emre Oktay
+    year: '2008'
+  - number: 638
+    name: Aylin Polat
+    year: '2008'
+  - number: 639
+    name: Zahriye Raşitoğlu
+    year: '2008'
+  - number: 640
+    name: Ali Onur Sayar
+    year: '2008'
+  - number: 641
+    name: Ezgi Şahin
+    year: '2008'
+  - number: 643
+    name: Özge Tutar
+    year: '2008'
+  - number: 644
+    name: Cansu Uç
+    year: '2008'
+  - number: 646
+    name: Berat Yoldaş
+    year: '2008'
+  - number: 647
+    name: Yusuf Yağcı
+    year: '2008'
+  - number: 651
+    name: Ahmet Ademoğlu
+    year: '2008'
+  - number: 653
+    name: Nazım Arda Eyyuboğlu
+    year: '2008'
+  - number: 654
+    name: Göksu Gürer
+    year: '2008'
+  - number: 656
+    name: Esra Mert
+    year: '2008'
+  - number: 657
+    name: Yavuz Mert
+    year: '2008'
+  - number: 658
+    name: Hasan Güven Candoğan
+    year: '2009'
+  - number: 659
+    name: Gökçe Aköz
+    year: '2009'
+  - number: 660
+    name: Onur Aktop
+    year: '2009'
+  - number: 661
+    name: Başar Arı
+    year: '2009'
+  - number: 662
+    name: Zerrin Arslan
+    year: '2009'
+  - number: 663
+    name: Cemre Artan
+    year: '2009'
+  - number: 664
+    name: Gözde Bahadır
+    year: '2009'
+  - number: 665
+    name: Onur Yaser Can
+    year: '2009'
+  - number: 666
+    name: Aysen Çağlı
+    year: '2009'
+  - number: 667
+    name: Buket Çamlıca
+    year: '2009'
+  - number: 668
+    name: Çilem Çiçek
+    year: '2009'
+  - number: 669
+    name: Mehmet Çiçek
+    year: '2009'
+  - number: 670
+    name: Mustafa Doğru
+    year: '2009'
+  - number: 671
+    name: Ömer Orkun Düztaş
+    year: '2009'
+  - number: 672
+    name: Derya Erdem
+    year: '2009'
+  - number: 673
+    name: Nur Filiz
+    year: '2009'
+  - number: 674
+    name: Mutlu Gider
+    year: '2009'
+  - number: 675
+    name: Beybin İlhan
+    year: '2009'
+  - number: 676
+    name: Volkan Kavas
+    year: '2009'
+  - number: 677
+    name: Ahmet Fatih Koç
+    year: '2009'
+  - number: 678
+    name: Ömer Ufuk Koç
+    year: '2009'
+  - number: 679
+    name: Alperen Koyuncu
+    year: '2009'
+  - number: 680
+    name: Deniz Mengüllüoğlu
+    year: '2009'
+  - number: 681
+    name: Ufuk Öztürk
+    year: '2009'
+  - number: 682
+    name: Murat Salmanoğlu
+    year: '2009'
+  - number: 683
+    name: Ömer Şenel
+    year: '2009'
+  - number: 684
+    name: Oğuzhan Temel
+    year: '2009'
+  - number: 685
+    name: Elif Yılmaz
+    year: '2009'
+  - number: 686
+    name: Gülizar Yılmaz
+    year: '2009'
+  - number: 687
+    name: Cihan Yıldırım
+    year: '2009'
+  - number: 688
+    name: Cihan Sadık Yürek
+    year: '2009'
+  - number: 689
+    name: Murat Akpınar
+    year: '2010'
+  - number: 690
+    name: Burçin Alparslan
+    year: '2010'
+  - number: 691
+    name: Alperen Asıltaş
+    year: '2010'
+  - number: 692
+    name: Burak Barutçu
+    year: '2010'
+  - number: 693
+    name: Sinan Bozca
+    year: '2010'
+  - number: 694
+    name: Gonca Canpolat
+    year: '2010'
+  - number: 695
+    name: Emre Cantekin
+    year: '2010'
+  - number: 696
+    name: Mehtap Demir
+    year: '2010'
+  - number: 697
+    name: Deniz Demircioğlu
+    year: '2010'
+  - number: 698
+    name: Emre Ege
+    year: '2010'
+  - number: 699
+    name: Cansev Erdem
+    year: '2010'
+  - number: 700
+    name: Mustafa Mert Eroğlu
+    year: '2010'
+  - number: 701
+    name: Emrecan Işık
+    year: '2010'
+  - number: 702
+    name: Belgin Kayhan
+    year: '2010'
+  - number: 703
+    name: Cihan Efe Kılıç
+    year: '2010'
+  - number: 704
+    name: Mehmet Ocaklı
+    year: '2010'
+  - number: 705
+    name: Ecem Oktay
+    year: '2010'
+  - number: 706
+    name: Gülce Öklem
+    year: '2010'
+  - number: 707
+    name: Erkut Sancar
+    year: '2010'
+  - number: 708
+    name: Ezgi Selçuk
+    year: '2010'
+  - number: 709
+    name: Osman Serdarlı
+    year: '2010'
+  - number: 710
+    name: Emrah Sezer
+    year: '2010'
+  - number: 711
+    name: Kadir Buğra Soyman
+    year: '2010'
+  - number: 712
+    name: Servet Şehirli
+    year: '2010'
+  - number: 713
+    name: Erim Teker
+    year: '2010'
+  - number: 714
+    name: Emre Türkselci
+    year: '2010'
+  - number: 715
+    name: Pınar Yazdıç
+    year: '2010'
+  - number: 716
+    name: Emre Yıldız
+    year: '2010'
+  - number: 717
+    name: Burhan Can Yiğit
+    year: '2010'
+  - number: 718
+    name: Onur Yüksel
+    year: '2010'
+  - number: 719
+    name: Murat Mercan
+    year: '2010'
+  - number: 720
+    name: Uğur Başak Öztürk
+    year: '2010'
+  - number: 721
+    name: Mehmet Yaralı
+    year: '2010'
+  - number: 722
+    name: Hüseyin Aleçakır
+    year: '2011'
+  - number: 723
+    name: Canberk Altundal
+    year: '2011'
+  - number: 724
+    name: Işıl Arslan
+    year: '2011'
+  - number: 725
+    name: Hatice Ezgi Aslan
+    year: '2011'
+  - number: 726
+    name: Ceren Aygül
+    year: '2011'
+  - number: 727
+    name: Burak Balcıoğlu
+    year: '2011'
+  - number: 728
+    name: Mert Barutçu
+    year: '2011'
+  - number: 729
+    name: Erinç Baytekin
+    year: '2011'
+  - number: 730
+    name: Ekrem Can Bilici
+    year: '2011'
+  - number: 731
+    name: Rıdvan Çakçi
+    year: '2011'
+  - number: 732
+    name: Çağatay Çat
+    year: '2011'
+  - number: 733
+    name: Ahmet Ziya Çelen
+    year: '2011'
+  - number: 734
+    name: Murat Damgacı
+    year: '2011'
+  - number: 735
+    name: Ahmet Başar Dimez
+    year: '2011'
+  - number: 736
+    name: Abdullah Onur Demir
+    year: '2011'
+  - number: 737
+    name: Onur Deniz
+    year: '2011'
+  - number: 738
+    name: İlknur Dönmez
+    year: '2011'
+  - number: 739
+    name: Bilge Bike Elal
+    year: '2011'
+  - number: 740
+    name: Müge Gökkaya
+    year: '2011'
+  - number: 741
+    name: Müslüm Gür
+    year: '2011'
+  - number: 742
+    name: Bahadır Gürsoy
+    year: '2011'
+  - number: 743
+    name: Handenur Karataş
+    year: '2011'
+  - number: 744
+    name: Sinem Kösem
+    year: '2011'
+  - number: 745
+    name: Berkay Özkan
+    year: '2011'
+  - number: 746
+    name: Melike Öztürk
+    year: '2011'
+  - number: 747
+    name: Merve Say
+    year: '2011'
+  - number: 748
+    name: Ege Selçuk
+    year: '2011'
+  - number: 749
+    name: Abdurrahman Türk
+    year: '2011'
+  - number: 750
+    name: Nurcan Geçer Ulu
+    year: '2011'
+  - number: 751
+    name: Erva Ulu
+    year: '2011'
+  - number: 752
+    name: Gönül Ünal
+    year: '2011'
+  - number: 753
+    name: Elif Dilara Yapıcı
+    year: '2011'
+  - number: 754
+    name: Recep Eren Akın
+    year: '2012'
+  - number: 755
+    name: Burcu Aksoy
+    year: '2012'
+  - number: 756
+    name: Semih Aktaş
+    year: '2012'
+  - number: 757
+    name: Sinan Aktürk
+    year: '2012'
+  - number: 758
+    name: Burcu Arslan
+    year: '2012'
+  - number: 759
+    name: Cem Ataman
+    year: '2012'
+  - number: 760
+    name: Ecem Bahçelioğlu
+    year: '2012'
+  - number: 761
+    name: Bora Baydar
+    year: '2012'
+  - number: 762
+    name: Merve Bilgin
+    year: '2012'
+  - number: 763
+    name: Ahmet Bodur
+    year: '2012'
+  - number: 764
+    name: Merve Bulut
+    year: '2012'
+  - number: 765
+    name: Nihal Ceylan
+    year: '2012'
+  - number: 766
+    name: Seher Çelen
+    year: '2012'
+  - number: 767
+    name: Gürel Dimez
+    year: '2012'
+  - number: 768
+    name: Deniz Dişa
+    year: '2012'
+  - number: 769
+    name: Muzaffer Ozan Erçin
+    year: '2012'
+  - number: 770
+    name: Tuğçe Erdoğu
+    year: '2012'
+  - number: 771
+    name: Alper Işık
+    year: '2012'
+  - number: 772
+    name: Hüseyin Özgür Işık
+    year: '2012'
+  - number: 773
+    name: Volkan İnan
+    year: '2012'
+  - number: 774
+    name: Taylan Karaman
+    year: '2012'
+  - number: 775
+    name: Muammer Kenber
+    year: '2012'
+  - number: 776
+    name: Özgün Kırdar
+    year: '2012'
+  - number: 777
+    name: Kumru Kocaman
+    year: '2012'
+  - number: 778
+    name: Volkan Mesce
+    year: '2012'
+  - number: 779
+    name: Ozan Nizam
+    year: '2012'
+  - number: 780
+    name: Ozan Özdemir
+    year: '2012'
+  - number: 781
+    name: Fahri Emre Öztürk
+    year: '2012'
+  - number: 782
+    name: Tuba Rağbetli
+    year: '2012'
+  - number: 783
+    name: Ömer Saim Süzer
+    year: '2012'
+  - number: 784
+    name: Alparslan Turhan
+    year: '2012'
+  - number: 785
+    name: Okan Türe
+    year: '2012'
+  - number: 786
+    name: Fulya Ulu
+    year: '2012'
+  - number: 787
+    name: Anıl Yıldırım
+    year: '2012'
+  - number: 788
+    name: Gülşen Albuz
+    year: '2013'
+  - number: 789
+    name: Merve Baksi
+    year: '2013'
+  - number: 790
+    name: Şelale Balambar
+    year: '2013'
+  - number: 791
+    name: Ergün Bayram
+    year: '2013'
+  - number: 792
+    name: Esin Bayram
+    year: '2013'
+  - number: 793
+    name: Simge Ceylan
+    year: '2013'
+  - number: 794
+    name: Hande Şeyda Çalışkan
+    year: '2013'
+  - number: 795
+    name: Ezgi Süheyla Doğan
+    year: '2013'
+  - number: 796
+    name: Furkan Gökgündüz
+    year: '2013'
+  - number: 797
+    name: Mustafa Kocaay
+    year: '2013'
+  - number: 798
+    name: Yiğit Pilavcı
+    year: '2013'
+  - number: 799
+    name: Yalın Şahin
+    year: '2013'
+  - number: 800
+    name: Özgül Ünlü
+    year: '2013'
+  - number: 801
+    name: Nurkız Yapıcı
+    year: '2013'
+  - number: 802
+    name: Ozan Yetkin
+    year: '2013'
+  - number: 803
+    name: Emre Barış Yıldız
+    year: '2013'
+  - number: 804
+    name: İsmihan Altıparmak
+    year: '2014'
+  - number: 805
+    name: Merve Çevikol
+    year: '2014'
+  - number: 806
+    name: Can Elverici
+    year: '2014'
+  - number: 807
+    name: Koray Koç
+    year: '2014'
+  - number: 808
+    name: Efecan Üçok
+    year: '2014'
+  - number: 809
+    name: Ertuğ Şimşek
+    year: '2014'
+  - number: 810
+    name: Serap Görünme
+    year: '2014'
+  - number: 811
+    name: Zilya Khazhina
+    year: '2014'
+  - number: 812
+    name: İlknur Abakbigan
+    year: '2015'
+  - number: 813
+    name: Cansın Çehiz
+    year: '2015'
+  - number: 814
+    name: Mert Çelikkanat
+    year: '2015'
+  - number: 815
+    name: Canan Doğan
+    year: '2015'
+  - number: 816
+    name: Tuğba Göçer
+    year: '2015'
+  - number: 817
+    name: Tonguç Gökçeer
+    year: '2015'
+  - number: 818
+    name: Alp Can Karacakol
+    year: '2015'
+  - number: 819
+    name: Mustafa Mert Karadağlı
+    year: '2015'
+  - number: 820
+    name: Uğur Karşı
+    year: '2015'
+  - number: 821
+    name: Can Kumru
+    year: '2015'
+  - number: 822
+    name: Taylan Mor
+    year: '2015'
+  - number: 823
+    name: Mert Oytun
+    year: '2015'
+  - number: 824
+    name: Ferdi Sarıbal
+    year: '2015'
+  - number: 825
+    name: Barış Can Şenoğlu
+    year: '2015'
+  - number: 826
+    name: Arev Pelin Sümer
+    year: '2015'
+  - number: 827
+    name: Günseli Akçay
+    year: '2015'
+  - number: 828
+    name: Ali Aygün
+    year: '2015'
+  - number: 829
+    name: Aslı Aygün
+    year: '2015'
+  - number: 830
+    name: Melis Coşkun
+    year: '2015'
+  - number: 831
+    name: Seçkin Çopur
+    year: '2015'
+  - number: 832
+    name: Çoruh Durmuş
+    year: '2015'
+  - number: 833
+    name: Elif Kayhan
+    year: '2015'
+  - number: 834
+    name: Emine Özgür
+    year: '2015'
+  - number: 835
+    name: Aslıhan Sayın
+    year: '2015'
+  - number: 836
+    name: Betül Buran
+    year: '2016'
+  - number: 837
+    name: Aziz Egemen Varlı
+    year: '2016'
+  - number: 838
+    name: Ali Baran Göğüş
+    year: '2016'
+  - number: 839
+    name: Gamze Zehra Tomaz
+    year: '2016'
+  - number: 840
+    name: Hasan Özovalı
+    year: '2016'
+  - number: 841
+    name: Deniz Aylin Cangür
+    year: '2016'
+  - number: 842
+    name: Salim Çağlar Avcı
+    year: '2016'
+  - number: 843
+    name: Yunus Emre Gök
+    year: '2016'
+  - number: 844
+    name: Zeynep Tuğtekin
+    year: '2016'
+  - number: 845
+    name: Zeynep Başak Oral
+    year: '2016'
+  - number: 846
+    name: Süleyman Çetin
+    year: '2016'
+  - number: 847
+    name: Nilsu Uyar
+    year: '2016'
+  - number: 848
+    name: Melike Kazak
+    year: '2016'
+  - number: 849
+    name: Ekin Kazancıoğlu
+    year: '2016'
+  - number: 850
+    name: Mustafa Melih Tecer
+    year: '2016'
+  - number: 851
+    name: Mahmut Şahin
+    year: '2016'
+  - number: 852
+    name: Nursu Bayrak
+    year: '2016'
+  - number: 853
+    name: Ekin Aykut
+    year: '2016'
+  - number: 854
+    name: Gizem Alışkan
+    year: '2016'
+  - number: 855
+    name: Serkan Mutlu
+    year: '2016'
+  - number: 856
+    name: Erkin Barış Güngör
+    year: '2016'
+  - number: 857
+    name: Başak Hamarat
+    year: '2017'
+  - number: 858
+    name: Çağatay Önder
+    year: '2017'
+  - number: 859
+    name: İdil Koçak
+    year: '2017'
+  - number: 860
+    name: Mustafa Yıldırım
+    year: '2017'
+  - number: 861
+    name: Ezgi Selin Kaya
+    year: '2017'
+  - number: 862
+    name: Mehmet Ali Gökkaplan
+    year: '2017'
+  - number: 863
+    name: Çağla Özgür
+    year: '2017'
+  - number: 864
+    name: Eda Gümüş
+    year: '2017'
+  - number: 865
+    name: Onur Bozkurt
+    year: '2017'
+  - number: 866
+    name: Bora Yalçıner
+    year: '2017'
+  - number: 867
+    name: Arda Gülsoy
+    year: '2017'
+  - number: 868
+    name: Edanur Eşmen
+    year: '2017'
+  - number: 869
+    name: Yonca Bulat
+    year: '2017'
+  - number: 870
+    name: Nil Aybike Gündü
+    year: '2017'
+  - number: 871
+    name: Alperen Sözer
+    year: '2017'
+  - number: 872
+    name: Görkem Varol
+    year: '2017'
+  - number: 873
+    name: Yağmur Topçu
+    year: '2017'
+  - number: 874
+    name: Tolunay Durmuş
+    year: '2017'
+  - number: 875
+    name: Oğuzhan Özpınar
+    year: '2017'
+  - number: 876
+    name: Burak Diler
+    year: '2017'
+  - number: 877
+    name: Yağız Kaan Türkeli
+    year: '2017'
+  - number: 878
+    name: Gül Yörük
+    year: '2017'
+  - number: 879
+    name: Ömer Can Sağbaş
+    year: '2017'
+  - number: 880
+    name: Ayşegül Nigar Akçal
+    year: '2018'
+  - number: 881
+    name: Eda Altıntepe
+    year: '2018'
+  - number: 882
+    name: Burak Arıkoğlu
+    year: '2018'
+  - number: 883
+    name: Yiğit Ayaz
+    year: '2018'
+  - number: 884
+    name: Sevgi Aydın
+    year: '2018'
+  - number: 885
+    name: Büşra Aydoğdu
+    year: '2018'
+  - number: 886
+    name: Asya Beyaz
+    year: '2018'
+  - number: 887
+    name: Halil İbrahim Beytorun
+    year: '2018'
+  - number: 888
+    name: Mert Bilgiç
+    year: '2018'
+  - number: 889
+    name: Ece Bilgin
+    year: '2018'
+  - number: 890
+    name: Ozan Çakmak
+    year: '2018'
+  - number: 891
+    name: Utku Danışman
+    year: '2018'
+  - number: 892
+    name: Barış Demirkap
+    year: '2018'
+  - number: 893
+    name: Atakan Durmaz
+    year: '2018'
+  - number: 894
+    name: Ahmet Emekli
+    year: '2018'
+  - number: 895
+    name: Hasan Hüseyin Engüçlü
+    year: '2018'
+  - number: 896
+    name: Kazım Bora Erdil
+    year: '2018'
+  - number: 897
+    name: Nebi Enes Esen
+    year: '2018'
+  - number: 898
+    name: Hikmat Gasimzade
+    year: '2018'
+  - number: 899
+    name: Birsen Hoşafcı
+    year: '2018'
+  - number: 900
+    name: Pınar İper
+    year: '2018'
+  - number: 901
+    name: Büşra Kandemir
+    year: '2018'
+  - number: 902
+    name: Nida Karabey
+    year: '2018'
+  - number: 903
+    name: İzel Kavvas
+    year: '2018'
+  - number: 904
+    name: Sıla Keskin
+    year: '2018'
+  - number: 905
+    name: Hakan Mutlu
+    year: '2018'
+  - number: 906
+    name: Cihan Öngün
+    year: '2018'
+  - number: 907
+    name: Abdullah Melih Özalp
+    year: '2018'
+  - number: 908
+    name: Şan Böke Özbülbül
+    year: '2018'
+  - number: 909
+    name: Umut Buğra Şeker
+    year: '2018'
+  - number: 910
+    name: Anıl Şen
+    year: '2018'
+  - number: 911
+    name: Yağız Şenal
+    year: '2018'
+  - number: 912
+    name: Tan Uçar
+    year: '2018'
+  - number: 913
+    name: Tuğçe Uludoğan
+    year: '2018'
+  - number: 914
+    name: Aytunç Yıldırım
+    year: '2018'
+  - number: 915
+    name: Bulut Çağdaş
+    year: '2019'
+  - number: 916
+    name: Onur Karakuş
+    year: '2019'
+  - number: 917
+    name: Merve Kurt
+    year: '2019'
+  - number: 918
+    name: Esra Öztürk
+    year: '2019'
+  - number: 919
+    name: Berivan Temiz
+    year: '2019'
+  - number: 920
+    name: Begüm Ece Tohumcu
+    year: '2019'
+  - number: 921
+    name: Yılmaz Hasan Akın
+    year: '2019'
+  - number: 922
+    name: Yılmaz Doğan Akkaya
+    year: '2019'
+  - number: 923
+    name: Suat Mert Altuğ
+    year: '2019'
+  - number: 924
+    name: Bilge Kaan Berhoğlu
+    year: '2019'
+  - number: 925
+    name: Mustafa Alperen Bitirgen
+    year: '2019'
+  - number: 926
+    name: Oğuz Cantürk
+    year: '2019'
+  - number: 927
+    name: Utku Ozan Coşkun
+    year: '2019'
+  - number: 928
+    name: Ali Doğan
+    year: '2019'
+  - number: 929
+    name: Ali Yiğit Efe
+    year: '2019'
+  - number: 930
+    name: İlker Işık
+    year: '2019'
+  - number: 931
+    name: Kaan Kantar
+    year: '2019'
+  - number: 932
+    name: Uğur Kaplan
+    year: '2019'
+  - number: 933
+    name: Sılay Önder
+    year: '2019'
+  - number: 934
+    name: Altar Özbıyık
+    year: '2019'
+  - number: 935
+    name: Ece Özsel
+    year: '2019'
+  - number: 936
+    name: Hürcan Polat
+    year: '2019'
+  - number: 937
+    name: Ayşe Seray Şeker
+    year: '2019'
+  - number: 938
+    name: Bora Baybars Tepe
+    year: '2019'
+  - number: 939
+    name: Melis Turhan
+    year: '2019'
+  - number: 940
+    name: Ece Yeğen
+    year: '2019'
+  - number: 941
+    name: Ada Alboğa
+    year: '2020'
+  - number: 942
+    name: Elif Hazal Çelikcan
+    year: '2020'
+  - number: 943
+    name: Elif Çoban
+    year: '2020'
+  - number: 944
+    name: Hasan Ekin Doğan
+    year: '2020'
+  - number: 945
+    name: Furkan Berkan Erol
+    year: '2020'
+  - number: 946
+    name: Ali Gökalp Gülay
+    year: '2020'
+  - number: 947
+    name: Nuri Furkan Gümüş
+    year: '2020'
+  - number: 948
+    name: Berkay Alp Günden
+    year: '2020'
+  - number: 949
+    name: Buğra Güneş
+    year: '2020'
+  - number: 950
+    name: Nur Kuş
+    year: '2020'
+  - number: 951
+    name: Hakan Kutluk
+    year: '2020'
+  - number: 952
+    name: Mustafa Mavi
+    year: '2020'
+  - number: 953
+    name: Sıla Özdemir
+    year: '2020'
+  - number: 954
+    name: Mehmet Efe Özhan
+    year: '2020'
+  - number: 955
+    name: Lale Sahil
+    year: '2020'
+  - number: 956
+    name: Dilara Sunal
+    year: '2020'
+  - number: 957
+    name: Sena Tiryaki
+    year: '2020'
+  - number: 958
+    name: Taner Sarp Tonay
+    year: '2020'
+  - number: 959
+    name: Elif Ayça Trak
+    year: '2020'
+  - number: 960
+    name: Furkan Turaç
+    year: '2020'
+  - number: 961
+    name: Önder Türe
+    year: '2020'
+  - number: 962
+    name: Ahmet Alp Uç
+    year: '2020'
+  - number: 963
+    name: Burak Çağrı Yıldız
+    year: '2020'
+  - number: 964
+    name: Batur Zafer
+    year: '2020'
+  - number: 965
+    name: Ecem Büyükbozkırlı
+    year: '2022'
+  - number: 966
+    name: Zehra Nur Erol
+    year: '2022'
+  - number: 967
+    name: Haluk Ali Camcıgil
+    year: '2022'
+  - number: 968
+    name: Asude Çelik
+    year: '2022'
+  - number: 969
+    name: Taylan Yıldıray Çoruk
+    year: '2022'
+  - number: 970
+    name: Defne Budak
+    year: '2022'
+  - number: 971
+    name: Alper Sezer Handan Çambel
+    year: '2022'
+  - number: 972
+    name: Handan Çambel
+    year: '2022'
+  - number: 973
+    name: Umur Alper Ön
+    year: '2022'
+  - number: 974
+    name: Berkant Daş
+    year: '2022'
+  - number: 975
+    name: Hüseyin Arda Sezgin
+    year: '2022'
+  - number: 976
+    name: Murat Han Seven
+    year: '2022'
+  - number: 977
+    name: Yusuf Gökmen
+    year: '2022'
+  - number: 978
+    name: Serdarhan Uçkaç
+    year: '2022'
+  - number: 979
+    name: Sıla Geniş
+    year: '2022'
+  - number: 980
+    name: Nehir Eryılmaz
+    year: '2022'
+  - number: 981
+    name: Özlem Tamaz
+    year: '2022'
+  - number: 982
+    name: Doğan Mert Turgut
+    year: '2022'
+  - number: 983
+    name: Ceylin Doğan
+    year: '2022'
+  - number: 984
+    name: Kerem Özkan
+    year: '2022'
+  - number: 985
+    name: Ömer Faruk Öztürk
+    year: '2022'
+  - number: 986
+    name: Caner Süren
+    year: '2022'
+  - number: 987
+    name: İpek Soyal
+    year: '2023'
+  - number: 988
+    name: Mert Solak
+    year: '2023'
+  - number: 989
+    name: Duru Vezne
+    year: '2023'
+  - number: 990
+    name: Zehra Karaşin
+    year: '2023'
+  - number: 991
+    name: Elif Eren
+    year: '2023'
+  - number: 992
+    name: Benan Gülmez
+    year: '2023'
+  - number: 993
+    name: Yasin Ataberk Demir
+    year: '2023'
+  - number: 994
+    name: Emre Ant
+    year: '2023'
+  - number: 995
+    name: Kaan Ergene
+    year: '2023'
+  - number: 996
+    name: Ali Kapitan
+    year: '2023'
+  - number: 997
+    name: Fevzi Fırat Tatar
+    year: '2023'
+  - number: 998
+    name: Kasım Erdem Erik
+    year: '2023'
+  - number: 999
+    name: Zülal Berre Çolak
+    year: '2023'
+  - number: 1000
+    name: Nil Kepoğlu
+    year: '2023'
+  - number: 1001
+    name: Bilge Alpay
+    year: '2023'
+  - number: 1002
+    name: Harun Can Öztürk
+    year: '2023'
+  - number: 1003
+    name: Birkan Çekiç
+    year: '2023'
+  - number: 1004
+    name: Zera Varlı
+    year: '2023'
+  - number: 1005
+    name: Emre Can Kandemir
+    year: '2023'
+  - number: 1006
+    name: Efe Can Katar
+    year: '2023'
+  - number: 1007
+    name: Yunus Emre Karaboyun
+    year: '2023'
+  - number: 1008
+    name: Tuna Barış
+    year: '2023'
+  - number: 1009
+    name: Efsa Yılmaz
+    year: '2023'
+  - number: 1010
+    name: İrfan Çapar
+    year: '2023'
+  - number: 1011
+    name: Bedirhan Sarıtaş
+    year: '2024'
+  - number: 1012
+    name: Azra Semiha Özcan
+    year: '2024'
+  - number: 1013
+    name: Melik Topraklı
+    year: '2024'
+  - number: 1014
+    name: Nesibe Meryem Ağırsoy
+    year: '2024'
+  - number: 1015
+    name: Atahan Önaçan
+    year: '2024'
+  - number: 1016
+    name: Arda Coşkun
+    year: '2024'
+  - number: 1017
+    name: Nazmi Eren Varilci
+    year: '2024'
+  - number: 1018
+    name: Dilay Balaban
+    year: '2024'
+  - number: 1019
+    name: Damla Taşcı
+    year: '2024'
+  - number: 1020
+    name: İdil Derin Akgedik
+    year: '2024'
+  - number: 1021
+    name: Aylin İmren
+    year: '2024'
+  - number: 1022
+    name: Yiğit Can Çelik
+    year: '2024'
+  - number: 1023
+    name: Osman Oğuzhan Yiğit
+    year: '2024'
+  - number: 1024
+    name: Alperen Bayram
+    year: '2024'
+  - number: 1025
+    name: Gökalp Deniz Sinangil
+    year: '2024'
+  - number: 1026
+    name: Ender Kurukahveci
+    year: '2024'
+  - number: 1027
+    name: Selen Altıntaş
+    year: '2024'
+  - number: 1028
+    name: Ziya Bora Esmer
+    year: '2024'
+  - number: 1029
+    name: Berkin Kerim Konar
+    year: '2024'
+  - number: 1030
+    name: Ece Kavuk
+    year: '2024'
+  - number: 1031
+    name: Berna Dalçık
+    year: '2024'
+  - number: 1032
+    name: Zeynep Gökdemirel
+    year: '2024'
+  - number: 1033
+    name: Alperen Ergin
+    year: '2024'
+  - number: 1034
+    name: Ece Güneş
+    year: '2024'
+  - number: 1035
+    name: Semih Altuğ Aydoğdu
+    year: '2024'
+  - number: 1036
+    name: Reyyan Taşdelen
+    year: '2024'
+  - number: 1037
+    name: Pınar Yüksel
+    year: '2024'
+  - number: 1038
+    name: Yiğit Üstün
+    year: '2024'
+  - number: 1039
+    name: Gökçe Sultan Kocaman
+    year: '2024'
+  - number: 1040
+    name: Ata Toprak Alboğa
+    year: '2024'
+  - number: 1041
+    name: Derin Doğan
+    year: '2024'
+  - number: 1042
+    name: Mert Uysal
+    year: '2024'
+  - number: 1043
+    name: Doğukan Yerbasan
+    year: '2024'
+  - number: 1044
+    name: Hakkı Alp Tekin
+    year: '2025'
+  - number: 1045
+    name: Aslı Yılmaz
+    year: '2025'
+  - number: 1046
+    name: Seniha Ayşenur Erdem
+    year: '2025'
+  - number: 1047
+    name: Barış Taştan
+    year: '2025'
+  - number: 1048
+    name: Günce Velioğlu
+    year: '2025'
+  - number: 1049
+    name: Hakan Emre Kayacan
+    year: '2025'
+  - number: 1050
+    name: Ezgi Cantürk
+    year: '2025'
+  - number: 1051
+    name: Ayşe Pelin Öztürk
+    year: '2025'
+  - number: 1052
+    name: Arda Ergene
+    year: '2025'
+  - number: 1053
+    name: Mustafa Hayırlar
+    year: '2025'
+  - number: 1054
+    name: Ali Deniz Çağlayan
+    year: '2025'
+  - number: 1055
+    name: Emine Betül Işık
+    year: '2025'
+  - number: 1056
+    name: Burak Kurt
+    year: '2025'
+  - number: 1057
+    name: Mehmet Doğrul
+    year: '2025'
+  - number: 1058
+    name: Muhammet Talha Demirel
+    year: '2025'
+  - number: 1059
+    name: Yusuf Arda Şahin
+    year: '2025'
+  - number: 1060
+    name: Süleyman Berke Koç
+    year: '2025'
+  - number: 1061
+    name: Sena Nur Çetin
+    year: '2025'
+  - number: 1062
+    name: Selim Ege Günsel
+    year: '2025'
+  - number: 1063
+    name: Yeşim Sökmen
+    year: '2025'
+  - number: 1064
+    name: Nisa Yeşil
+    year: '2025'
+  - number: 1065
+    name: Mustafa Bayram
+    year: '2025'
+  - number: 1066
+    name: Emir Yusuf Özen
+    year: '2025'
+  - number: 1067
+    name: Eylül Açıkgöz
+    year: '2025'
+  - number: 1068
+    name: Ekin Şentürk
+    year: '2025'
+  - number: 1069
+    name: Ege Egesoy
+    year: '2025'
+  - number: 1070
+    name: Deniz İren
+    year: '2025'
+  - number: 1071
+    name: Eren Şahbaz
+    year: '2025'
+  - number: 1072
+    name: Eylül Akyürek
+    year: '2025'
+  - number: 1073
+    name: Ebru Bayar
+    year: '2025'
+  - number: 1074
+    name: Melek Karabulut
+    year: '2025'
+  - number: 1075
+    name: Şule Deniz Korkmaz
+    year: '2025'
+  - number: 1076
+    name: Ceylin Günaydın
+    year: '2025'
+  - number: 1077
+    name: Mehmet Berat İnanç
+    year: '2026'
+  - number: 1078
+    name: Kuzey Topaloğlu
+    year: '2026'
+  - number: 1079
+    name: Melih Karabulut
+    year: '2026'
+  - number: 1080
+    name: Barış Feyyaz Tunç
+    year: '2026'
+  - number: 1081
+    name: Sude Ertin
+    year: '2026'
+  - number: 1082
+    name: Dilara Ağyar
+    year: '2026'
+  - number: 1083
+    name: Salih Can Nazlım
+    year: '2026'
+  - number: 1084
+    name: Güray Özdemir
+    year: '2026'
+  - number: 1085
+    name: Cem Keşkek
+    year: '2026'
+  - number: 1086
+    name: Zeynep Eda Cinbal
+    year: '2026'
+  - number: 1087
+    name: Elif Vurdu
+    year: '2026'
+  - number: 1088
+    name: Mertali Çınar
+    year: '2026'
+  - number: 1089
+    name: Suphi Konç
+    year: '2026'
+  - number: 1090
+    name: Nehir Haykır
+    year: '2026'
+  - number: 1091
+    name: Elif İnci Başcoşkun
+    year: '2026'
+  - number: 1092
+    name: Rahime Selin Ünal
+    year: '2026'
+  - number: 1093
+    name: Uygar Baran Ülgen
+    year: '2026'
+  - number: 1094
+    name: Mete Acun
+    year: '2026'
+  - number: 1095
+    name: Demir Sönmez
+    year: '2026'
+  - number: 1096
+    name: Damla Nur Rüzgar
+    year: '2026'
+  - number: 1097
+    name: Muhammed Emin Çiçek
+    year: '2026'
+  - number: 1098
+    name: Dila Yalçın
+    year: '2026'
+  - number: 1099
+    name: Yahya Turan
+    year: '2026'
+  - number: 1100
+    name: Metin Huneli Erdamar
+    year: '2026'
+  - number: 1101
+    name: Egemen Güler
+    year: '2026'
+  - number: 1102
+    name: İsmail Reha Demir
+    year: '2026'
+  - number: 1103
+    name: M. Selen Erbay
+    year: '2026'
+  - number: 1104
+    name: Umut Çınar Ülger
+    year: '2026'
+  - number: 1105
+    name: Feyza İzel Yılmaz
+    year: '2026'
