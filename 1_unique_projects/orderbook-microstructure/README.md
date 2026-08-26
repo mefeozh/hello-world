@@ -7,7 +7,7 @@
 
 ## 📌 Overview
 
-An institutional-grade cryptocurrency market microstructure analytics terminal built with **Shiny for Python**, **DuckDB**, and **Polars**. The application ingests, warehouses, and visualizes high-frequency Level-2 (L2) Limit Order Book depth snapshots from Binance (`BTC-USDT`) with zero-copy analytics and interactive playback.
+A cryptocurrency market microstructure analytics terminal built with **Shiny for Python**, **DuckDB**, and **Polars**. The application ingests, warehouses, and visualizes high-frequency Level-2 (L2) Limit Order Book depth snapshots from Binance (`BTC-USDT`) with zero-copy analytics and interactive playback.
 
 ---
 
