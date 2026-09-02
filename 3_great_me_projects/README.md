@@ -1,4 +1,4 @@
-# 🏆 Category 3: Flagship Mechanical Engineering Design Projects
+# Category 3: Flagship Mechanical Engineering Design Projects
 
 This directory contains comprehensive machine element systems, aerospace transmission gearboxes, fatigue analysis engines, hydrodynamic lubrication solvers, and industrial hydraulic network optimizers.
 
