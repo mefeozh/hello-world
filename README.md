@@ -1,7 +1,7 @@
 # 🚀 Engineering & Software Portfolio — Mehmet Efe Özhan
 
 **Mechanical Engineering Senior | Middle East Technical University (METU / ODTÜ)**  
-*Ankara, Turkey | efe.ozhan@metu.edu.tr | [LinkedIn](https://linkedin.com/in/mehmet-efe-ozhan) | [GitHub](https://github.com/mefeozhan)*
+*Ankara, Turkey | efe.ozhan@metu.edu.tr | [LinkedIn](https://www.linkedin.com/in/efe-ozhan-a51938192/) | [GitHub](https://github.com/mefeozh)*
 
 ---
 
